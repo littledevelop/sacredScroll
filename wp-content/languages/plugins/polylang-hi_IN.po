@@ -1,0 +1,2528 @@
+# Translation of Plugins - Polylang - Stable (latest release) in Hindi
+# This file is distributed under the same license as the Plugins - Polylang - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-04-22 07:35:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: hi_IN\n"
+"Project-Id-Version: Plugins - Polylang - Stable (latest release)\n"
+
+#: settings/settings-url.php:70
+msgid "Some themes or plugins may not be fully compatible with the language defined by domains."
+msgstr "कुछ थीम या प्लगइन डोमेन द्वारा परिभाषित भाषा के साथ पूरी तरह से संगत नहीं हो सकते हैं।"
+
+#: modules/wizard/view-wizard-step-licenses.php:21
+msgid "Please enter your license keys:"
+msgstr "कृपया अपनी लाइसेंस कुंजियाँ दर्ज करें:"
+
+#. translators: %s is a URL slug: `/language/`.
+#: modules/site-health/admin-site-health.php:138 settings/settings-url.php:175
+msgid "Keep %s in pretty permalinks"
+msgstr "%s को सुंदर पर्मालिंक में रखें"
+
+#. translators: %s is a URL slug: `/language/`.
+#: modules/site-health/admin-site-health.php:131 settings/settings-url.php:160
+msgid "Remove %s in pretty permalinks"
+msgstr "सुंदर पर्मालिंक्स में %s हटाएँ"
+
+#: modules/REST/V1/Settings.php:161
+msgid "Sorry, you are not allowed to edit options."
+msgstr "क्षमा करें, आपको विकल्प संपादित करने की अनुमति नहीं है।"
+
+#: modules/REST/V1/Languages.php:788
+msgid "Invalid language identifier"
+msgstr "अमान्य भाषा पहचानकर्ता"
+
+#: modules/REST/V1/Languages.php:777
+msgid "Invalid language slug"
+msgstr "अमान्य भाषा स्लग"
+
+#: modules/REST/V1/Languages.php:754
+msgid "Invalid language ID"
+msgstr "अमान्य भाषा आईडी"
+
+#: modules/REST/V1/Languages.php:687 modules/REST/V1/Languages.php:710
+msgid "The locale is invalid."
+msgstr "स्थान अमान्य है।"
+
+#: modules/REST/V1/Languages.php:623
+msgid "Number of items of this type of content in this language."
+msgstr "इस भाषा में इस प्रकार की सामग्री की वस्तुओं की संख्या।"
+
+#. translators: %s is the name of the term property (`term_id` or
+#. `term_taxonomy_id`).
+#: modules/REST/V1/Languages.php:612 modules/REST/V1/Languages.php:618
+msgid "The %s of the language term for this translatable entity."
+msgstr "इस अनुवाद योग्य इकाई के लिए भाषा शब्द का %s।"
+
+#: modules/REST/V1/Languages.php:597
+msgid "Tells whether the default category must be created when creating a new language."
+msgstr "यह बताता है कि नई भाषा बनाते समय डिफ़ॉल्ट श्रेणी बनाई जानी चाहिए या नहीं।"
+
+#: modules/REST/V1/Languages.php:590
+msgid "Language properties."
+msgstr "भाषा गुण।"
+
+#: modules/REST/V1/Languages.php:579
+msgid "List of language locale fallbacks."
+msgstr "भाषा स्थानीय फ़ॉलबैक की सूची।"
+
+#: modules/REST/V1/Languages.php:572
+msgid "Identifier of the page for posts in this language."
+msgstr "इस भाषा में पोस्ट के लिए पृष्ठ का पहचानकर्ता।"
+
+#: modules/REST/V1/Languages.php:565
+msgid "Page on front ID in this language."
+msgstr "इस भाषा में फ्रंट आईडी पर पृष्ठ।"
+
+#: modules/REST/V1/Languages.php:558
+msgid "Host for this language."
+msgstr "इस भाषा के लिए होस्ट।"
+
+#: modules/REST/V1/Languages.php:551
+msgid "Search URL in this language."
+msgstr "इस भाषा में यूआरएल खोजें।"
+
+#: modules/REST/V1/Languages.php:544
+msgid "Home URL in this language."
+msgstr "इस भाषा में होम यूआरएल।"
+
+#: modules/REST/V1/Languages.php:538
+msgid "Tells whether the language is active."
+msgstr "बताता है कि भाषा सक्रिय है या नहीं।"
+
+#: modules/REST/V1/Languages.php:532
+msgid "Tells whether the language is the default one."
+msgstr "बताता है कि भाषा डिफ़ॉल्ट है या नहीं।"
+
+#: modules/REST/V1/Languages.php:526
+msgid "HTML tag for the custom flag."
+msgstr "कस्टम फ्लैग के लिए HTML टैग।"
+
+#: modules/REST/V1/Languages.php:519
+msgid "Custom flag URL."
+msgstr "कस्टम फ़्लैग यूआरएल।"
+
+#: modules/REST/V1/Languages.php:513
+msgid "HTML tag for the flag."
+msgstr "फ्लैग के लिए HTML टैग।"
+
+#: modules/REST/V1/Languages.php:506
+msgid "Flag URL."
+msgstr "फ्लैग यूआरएल।"
+
+#: modules/REST/V1/Languages.php:501
+msgid "Flag code corresponding to ISO 3166-1 (for example: us for the United States flag)."
+msgstr "ISO 3166-1 के अनुरूप ध्वज कोड (उदाहरण के लिए: संयुक्त राज्य ध्वज के लिए us)।"
+
+#: modules/REST/V1/Languages.php:496
+msgid "Position of the language in the language switcher."
+msgstr "भाषा स्विचर में भाषा की स्थिति।"
+
+#. translators: %s is a value.
+#: modules/REST/V1/Languages.php:489
+msgid "Text direction. %s for right-to-left."
+msgstr "पाठ की दिशा। दाएँ से बाएँ के लिए %s।"
+
+#: modules/REST/V1/Languages.php:481
+msgid "Facebook Locale for the language (for example: en_US)."
+msgstr "भाषा के लिए फेसबुक लोकेल (उदाहरण के लिए: en_US)।"
+
+#: modules/REST/V1/Languages.php:475
+msgid "W3C Locale for the language (for example: en-US)."
+msgstr "भाषा के लिए W3C लोकेल (उदाहरण के लिए: en-US)।"
+
+#: modules/REST/V1/Languages.php:468
+msgid "WordPress Locale for the language (for example: en_US)."
+msgstr "भाषा के लिए वर्डप्रेस लोकेल (उदाहरण के लिए: en_US)।"
+
+#: modules/REST/V1/Languages.php:394
+msgid "Sorry, you are not allowed to delete this language."
+msgstr "क्षमा करें, आपको इस भाषा को हटाने की अनुमति नहीं है।"
+
+#: modules/REST/V1/Languages.php:372
+msgid "Sorry, you are not allowed to edit this language."
+msgstr "क्षमा करें, आपको इस भाषा को संपादित करने की अनुमति नहीं है।"
+
+#: modules/REST/V1/Languages.php:335
+msgid "Sorry, you are not allowed to create a language."
+msgstr "क्षमा करें, आपको भाषा बनाने की अनुमति नहीं है।"
+
+#: modules/REST/V1/Languages.php:313
+msgid "Sorry, you are not allowed to edit languages."
+msgstr "क्षमा करें, आपको भाषाओं को संपादित करने की अनुमति नहीं है।"
+
+#: modules/REST/V1/Languages.php:168
+msgid "Cannot create existing language."
+msgstr "मौजूदा भाषा नहीं बना सकते।"
+
+#: modules/REST/V1/Languages.php:120 modules/REST/V1/Languages.php:462
+msgid "Language code - preferably 2-letters ISO 639-1 (for example: en)."
+msgstr "भाषा कोड - अधिमानतः 2-अक्षर आईएसओ 639-1 (उदाहरण के लिए: एन)।"
+
+#: modules/REST/V1/Languages.php:94 modules/REST/V1/Languages.php:449
+msgid "Unique identifier for the language."
+msgstr "भाषा के लिए विशिष्ट पहचानकर्ता।"
+
+#: include/translated-term.php:424
+msgid "Empty Term."
+msgstr "खाली टर्म।"
+
+#: include/translated-term.php:327
+msgid "Language taxonomy properties for terms."
+msgstr "शब्दों के लिए भाषा वर्गीकरण गुण।"
+
+#: include/translated-post.php:553
+msgid "Invalid post ID."
+msgstr "अमान्य पोस्ट आईडी."
+
+#: include/translated-post.php:476
+msgid "Language taxonomy properties for post types."
+msgstr "पोस्ट प्रकारों के लिए भाषा वर्गीकरण गुण।"
+
+#. translators: %s is the name of a database table.
+#: include/translatable-object.php:550
+msgid "Language taxonomy properties for table %s."
+msgstr "तालिका %s के लिए भाषा वर्गीकरण गुण।"
+
+#: include/Options/Options.php:338
+msgid "Polylang options"
+msgstr "पॉलीलैंग विकल्प"
+
+#. translators: %s is a list of option names.
+#: include/Options/Options.php:289
+msgid "Unknown option keys %s."
+msgstr "अज्ञात विकल्प कुंजियाँ %s।"
+
+#. translators: %s is an option name.
+#. translators: %s is the name of an option.
+#: include/Options/Options.php:286 include/Options/Options.php:393
+msgid "Unknown option key %s."
+msgstr "अज्ञात विकल्प कुंजी %s।"
+
+#: include/Options/Business/Version.php:39
+msgid "Polylang's version."
+msgstr "पॉलीलैंग का संस्करण।"
+
+#: include/Options/Business/Taxonomies.php:52
+msgid "List of taxonomies to translate."
+msgstr "अनुवाद करने के लिए वर्गीकरणों की सूची।"
+
+#: include/Options/Business/Sync.php:66
+msgid "List of data to synchronize."
+msgstr "सिंक्रनाइज़ करने के लिए डेटा की सूची।"
+
+#. translators: %1$s is a URL slug: `/language/`. %2$s and %3$s are
+#. "true/false" values.
+#: include/Options/Business/Rewrite.php:54
+msgid "Remove %1$s in pretty permalinks: %2$s to remove, %3$s to keep."
+msgstr "सुंदर स्थायी लिंक में %1$s हटाएं: %2$s हटाएं, %3$s रखें।"
+
+#. translators: %1$s and %2$s are "true/false" values.
+#: include/Options/Business/Redirect_Lang.php:43
+msgid "Remove the page name or page ID from the URL of the front page: %1$s to remove, %2$s to keep."
+msgstr "मुखपृष्ठ के यूआरएल से पृष्ठ का नाम या पृष्ठ आईडी हटाएँ: %1$s हटाएँ, %2$s रखें।"
+
+#: include/Options/Business/Previous_Version.php:37
+msgid "Polylang's previous version."
+msgstr "पॉलीलैंग का पिछला संस्करण।"
+
+#: include/Options/Business/Post_Types.php:51
+msgid "List of post types to translate."
+msgstr "अनुवाद करने के लिए पोस्ट प्रकारों की सूची।"
+
+#: include/Options/Business/Nav_Menus.php:153
+msgid "Translated navigation menus for each theme."
+msgstr "प्रत्येक थीम के लिए अनुवादित नेविगेशन मेनू।"
+
+#. translators: %1$s and %2$s are "true/false" values.
+#: include/Options/Business/Media_Support.php:42
+msgid "Translate media: %1$s to translate, %2$s otherwise."
+msgstr "मीडिया का अनुवाद करें: अनुवाद करने के लिए %1$s, अन्यथा %2$s।"
+
+#: include/Options/Business/Language_Taxonomies.php:55
+msgid "List of language taxonomies used for custom DB tables."
+msgstr "कस्टम डेटाबेस तालिकाओं के लिए प्रयुक्त भाषा वर्गीकरणों की सूची।"
+
+#. translators: %1$s and %2$s are "true/false" values.
+#: include/Options/Business/Hide_Default.php:75
+msgid "Remove the language code in URL for the default language: %1$s to hide, %2$s to display."
+msgstr "डिफ़ॉल्ट भाषा के लिए यूआरएल में भाषा कोड निकालें: छिपाने के लिए %1$s, प्रदर्शित करने के लिए %2$s।"
+
+#: include/Options/Business/Force_Lang.php:66
+msgid "Determine how the current language is defined."
+msgstr "निर्धारित करें कि वर्तमान भाषा को कैसे परिभाषित किया गया है।"
+
+#: include/Options/Business/First_Activation.php:70
+msgid "Time of first activation of Polylang."
+msgstr "पॉलीलैंग के प्रथम सक्रियण का समय।"
+
+#: include/Options/Business/Domains.php:186
+msgid "Domains used when the language is set from different domains."
+msgstr "जब भाषा विभिन्न डोमेन से सेट की जाती है तो डोमेन का उपयोग किया जाता है।"
+
+#. translators: %s is a list of URLs.
+#: include/Options/Business/Domains.php:164
+msgid "Polylang was unable to access the %s URLs. Please check that the URLs are valid."
+msgstr "पॉलीलैंग %s यूआरएल तक पहुँचने में असमर्थ था। कृपया जाँच लें कि यूआरएल मान्य हैं।"
+
+#. translators: %s is a list of native language names.
+#: include/Options/Business/Domains.php:133
+msgid "Please enter valid URLs for %s."
+msgstr "कृपया %s के लिए मान्य यूआरएल दर्ज करें।"
+
+#: include/Options/Business/Default_Lang.php:58
+msgid "Slug of the default language."
+msgstr "डिफ़ॉल्ट भाषा का स्लग।"
+
+#. translators: %1$s and %2$s are "true/false" values.
+#: include/Options/Business/Browser.php:66
+msgid "Detect preferred browser language on front page: %1$s to detect, %2$s to not detect."
+msgstr "मुख पृष्ठ पर पसंदीदा ब्राउज़र भाषा का पता लगाएं: पता लगाने के लिए %1$s, पता न लगाने के लिए %2$s।"
+
+#. translators: %s is a list of language slugs.
+#: include/Options/Abstract_Option.php:263
+msgid "The languages %s are unknown and have been discarded."
+msgstr "भाषाएँ %s अज्ञात हैं और हटा दी गई हैं।"
+
+#. translators: %s is a language slug.
+#: include/Options/Abstract_Option.php:260
+msgid "The language %s is unknown and has been discarded."
+msgstr "भाषा %s अज्ञात है और इसे हटा दिया गया है।"
+
+#: include/api.php:570 include/api.php:605 include/translated-post.php:558
+#: include/translated-term.php:432
+msgid "Please provide a valid language."
+msgstr "कृपया एक मान्य भाषा प्रदान करें।"
+
+#: admin/admin-notices.php:291
+msgid "Translations matching the original string are shown as empty in the table. Untranslated content remains unchanged."
+msgstr "मूल स्ट्रिंग से मेल खाने वाले अनुवाद तालिका में खाली दिखाए गए हैं। अअनुवादित सामग्री अपरिवर्तित रहती है।"
+
+#. translators: %1$s placeholder is the language name, %2$s is the language
+#. code
+#: modules/site-health/admin-site-health.php:302
+msgid "Language: %1$s - %2$s"
+msgstr "भाषा: %1$s - %2$s"
+
+#: modules/machine-translation/settings-preview-machine-translation.php:40
+msgid "Allows linkage to DeepL Translate."
+msgstr "DeepL ट्रांसलेट से लिंकेज की अनुमति देता है।"
+
+#: modules/machine-translation/settings-preview-machine-translation.php:39
+msgid "Machine Translation"
+msgstr "मशीन अनुवाद"
+
+#: include/Model/Languages.php:263
+msgid "The language does not seem to exist."
+msgstr "ऐसा लगता है कि भाषा अस्तित्व में नहीं है।"
+
+#. translators: 1 is a post type or taxonomy label, 2 is a post type or
+#. taxonomy key.
+#: settings/settings-cpt.php:115 settings/settings-cpt.php:146
+msgctxt "content type setting choice"
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: modules/site-health/admin-site-health.php:183
+msgid "Synchronization disabled"
+msgstr "सिंक्रोनाइज़ेशन अक्षम किया गया"
+
+#: modules/site-health/admin-site-health.php:178
+msgid "The media are translated"
+msgstr "मीडिया का अनुवाद किया जाता है"
+
+#: modules/site-health/admin-site-health.php:175
+msgid "The media are not translated"
+msgstr "मीडिया का अनुवाद नहीं किया जाता है"
+
+#: modules/site-health/admin-site-health.php:170
+msgid "The front page URL contains the page name or page id instead of the language code"
+msgstr "मुख पृष्ठ यूआरएल में भाषा कोड के बजाय पृष्ठ का नाम या पृष्ठ आईडी शामिल है"
+
+#: modules/site-health/admin-site-health.php:147
+msgid "Display URL language information for default language"
+msgstr "डिफ़ॉल्ट भाषा के लिए यूआरएल भाषा की जानकारी प्रदर्शित करें"
+
+#: modules/site-health/admin-site-health.php:125
+msgid "Detect browser language activated"
+msgstr "ब्राउज़र भाषा सक्रिय का पता लगाएं"
+
+#: modules/site-health/admin-site-health.php:122
+msgid "Detect browser language deactivated"
+msgstr "निष्क्रिय ब्राउज़र भाषा का पता लगाएं"
+
+#. translators: placeholder is the plugin name
+#: modules/site-health/admin-site-health.php:449
+msgid "%s information"
+msgstr "%s जानकारी"
+
+#: modules/site-health/admin-site-health.php:441
+msgid "Not loaded. Contact your host provider."
+msgstr "लोड नहीं। अपने होस्ट प्रदाता से संपर्क करें।"
+
+#: modules/site-health/admin-site-health.php:440
+msgid "PHP SimpleXML extension"
+msgstr "PHP SimpleXML एक्सटेंशन"
+
+#: install/plugin-updater.php:338
+msgid "Update now."
+msgstr "Update now."
+
+#. translators: 1. and 4. are opening anchor tags 2. the new plugin version 3.
+#. and 5. are closing anchor tags.
+#: install/plugin-updater.php:327
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin
+#. version 3. closing anchor tag, do not translate.
+#: install/plugin-updater.php:318
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sView version %2$s details%3$s."
+
+#: install/plugin-updater.php:313
+msgid "Contact your network administrator to install the update."
+msgstr "Contact your network administrator to install the update."
+
+#. translators: the plugin name.
+#: install/plugin-updater.php:307
+msgid "There is a new version of %1$s available."
+msgstr "There is a new version of %1$s available."
+
+#: settings/settings-url.php:56
+msgid "Some themes or plugins may not be fully compatible with the language defined by the content or by domains."
+msgstr "कुछ थीम या प्लगइन्स सामग्री या डोमेन द्वारा परिभाषित भाषा के साथ पूरी तरह से संगत नहीं हो सकते हैं।"
+
+#: settings/settings-media.php:32
+msgid "Activate languages and translations for media only if you need to translate the text attached to the media: the title, the alternative text, the caption, the description... Note that the file is not duplicated."
+msgstr "मीडिया के लिए भाषाओं और अनुवादों को तभी सक्रिय करें जब आपको मीडिया से जुड़े पाठ का अनुवाद करने की आवश्यकता हो: शीर्षक, वैकल्पिक पाठ, कैप्शन, विवरण... ध्यान दें कि फ़ाइल डुप्लिकेट नहीं है।"
+
+#: settings/settings-browser.php:35
+msgid "When the front page is visited, redirects to itself in the browser preferred language. As this doesn't work if it is cached, Polylang will attempt to disable the front page cache for known cache plugins."
+msgstr "जब मुख पृष्ठ पर जाया जाता है, तो वह ब्राउज़र की पसंदीदा भाषा में स्वयं को रीडायरेक्ट कर देता है। चूंकि यह कैश्ड होने पर काम नहीं करता है, पॉलीलैंग ज्ञात कैश प्लगइन्स के लिए फ्रंट पेज कैश को अक्षम करने का प्रयास करेगा।"
+
+#: modules/site-health/admin-site-health.php:429
+msgid "Terms without language"
+msgstr "भाषा के बिना शर्तें"
+
+#: modules/site-health/admin-site-health.php:422
+msgid "Posts without language"
+msgstr "बिना भाषा के पोस्ट"
+
+#: modules/site-health/admin-site-health.php:401
+msgid "The homepage is not translated in all languages"
+msgstr "मुखपृष्ठ सभी भाषाओं में अनुवादित नहीं है"
+
+#: modules/site-health/admin-site-health.php:391
+msgid "It is mandatory to translate the static front page in all languages."
+msgstr "स्थिर मुख पृष्ठ का सभी भाषाओं में अनुवाद करना अनिवार्य है।"
+
+#: modules/site-health/admin-site-health.php:383
+msgid "All languages have a translated homepage"
+msgstr "सभी भाषाओं का अनुवादित मुखपृष्ठ उपलब्ध है"
+
+#: modules/site-health/admin-site-health.php:367
+msgid "Homepage translated"
+msgstr "मुखपृष्ठ का अनुवाद किया गया"
+
+#: modules/site-health/admin-site-health.php:352
+msgid "Undefined"
+msgstr "अनिर्धारित"
+
+#. translators: placeholder is the flag image
+#: modules/site-health/admin-site-health.php:304
+msgid "Flag used in the language switcher: %s"
+msgstr "भाषा स्विचर में प्रयुक्त फ्लैग: %s"
+
+#. translators: placeholder is the plugin name
+#: modules/site-health/admin-site-health.php:259
+msgid "%s options"
+msgstr "%s विकल्प"
+
+#: include/widget-calendar.php:319
+msgid "Previous and next months"
+msgstr "पिछले और अगले महीने"
+
+#. translators: %s: is the translated label of the 'Ignore' button
+#: modules/wizard/view-wizard-step-languages.php:130
+msgid "%s: stay at this step"
+msgstr "%s: इस चरण पर बने रहें"
+
+#. translators: %s: is the translated label of the 'No' button
+#: modules/wizard/view-wizard-step-languages.php:121
+msgid "%s: don't add this language and continue to the next step"
+msgstr "%s: इस भाषा को न जोड़ें और अगले चरण पर जारी रखें"
+
+#. translators: %s: is the translated label of the 'Yes' button
+#: modules/wizard/view-wizard-step-languages.php:112
+msgid "%s: add this language and continue to the next step"
+msgstr "%s: इस भाषा को जोड़ें और अगले चरण पर जारी रखें"
+
+#: modules/wizard/view-wizard-step-languages.php:105
+msgid "Do you want to add this language before continuing to the next step?"
+msgstr "क्या आप अगले चरण पर आगे बढ़ने से पहले इस भाषा को जोड़ना चाहते हैं?"
+
+#. translators: %1$s: is a language flag image, %2$s: is a language native name
+#: modules/wizard/view-wizard-step-languages.php:98
+msgid "You selected %1$s %2$s but you didn't add it to the list before continuing to the next step."
+msgstr "आपने %1$s %2$s का चयन किया लेकिन अगले चरण पर आगे बढ़ने से पहले आपने इसे सूची में नहीं जोड़ा।"
+
+#: modules/wizard/view-wizard-step-languages.php:75
+msgid "Languages already defined"
+msgstr "भाषाएँ पहले से ही परिभाषित हैं"
+
+#: modules/wizard/view-wizard-step-languages.php:63
+msgid "Remove"
+msgstr "हटाएँ"
+
+#: modules/wizard/view-wizard-step-languages.php:32
+msgid "Select a language to be added"
+msgstr "जोड़ी जाने वाली भाषा का चयन करें"
+
+#: modules/wizard/view-wizard-step-languages.php:26
+msgid "First we are going to define the languages that you will use on your website."
+msgstr "सबसे पहले हम उन भाषाओं को परिभाषित करने जा रहे हैं जिनका उपयोग आप अपनी वेबसाइट पर करेंगे।"
+
+#: modules/wizard/view-wizard-step-languages.php:23
+msgid "This wizard will help you configure your Polylang settings, and get you started quickly with your multilingual website."
+msgstr "यह विज़ार्ड आपकी पॉलीलैंग सेटिंग्स को कॉन्फ़िगर करने में आपकी सहायता करेगा, और आपको अपनी बहुभाषी वेबसाइट के साथ शीघ्रता से आरंभ करने में मदद करेगा।"
+
+#: modules/wizard/html-wizard-notice.php:47
+msgid "Skip setup"
+msgstr "सेटअप छोड़ें"
+
+#: modules/wizard/html-wizard-notice.php:41
+msgid "Run the Setup Wizard"
+msgstr "सेटअप विज़ार्ड चलाएँ"
+
+#: modules/wizard/html-wizard-notice.php:33
+msgid "You&lsquo;re almost ready to translate your contents!"
+msgstr "आप अपनी सामग्री का अनुवाद करने के लिए लगभग तैयार हैं!"
+
+#. translators: %s is the plugin name
+#: modules/wizard/html-wizard-notice.php:26
+msgid "Welcome to %s"
+msgstr "%s  में स्वागत है"
+
+#: modules/wizard/view-wizard-step-licenses.php:28
+msgid "There is an error with a license key."
+msgstr "लाइसेंस कुंजी में कोई त्रुटि है।"
+
+#: modules/wizard/view-wizard-step-licenses.php:19
+msgid "Please enter your license key:"
+msgstr "कृपया अपना लाइसेंस कुंजी दर्ज करें:"
+
+#: modules/wizard/view-wizard-step-licenses.php:16
+msgid "You are using plugins which require a license key."
+msgstr "आप ऐसे प्लगइन्स का उपयोग कर रहे हैं जिनके लिए लाइसेंस कुंजी की आवश्यकता होती है।"
+
+#: modules/wizard/view-wizard-page.php:117
+msgid "Not right now"
+msgstr "अभी नहीं"
+
+#: modules/wizard/view-wizard-page.php:105
+msgid "Continue"
+msgstr "जारी रखें"
+
+#. translators: %s is the plugin name
+#: modules/wizard/view-wizard-page.php:42
+msgid "%s &rsaquo; Setup"
+msgstr "%s &rsaquo; स्थापित करना"
+
+#: modules/wizard/view-wizard-step-media.php:52
+msgid "Help"
+msgstr "मदद"
+
+#: modules/wizard/view-wizard-step-media.php:43
+msgid "Allow Polylang to translate media"
+msgstr "पॉलीलैंग को मीडिया का अनुवाद करने की अनुमति दें"
+
+#: modules/wizard/view-wizard-step-media.php:26
+msgid "You must activate media translation if you want to translate the title, the alternative text, the caption, or the description. Otherwise you can safely deactivate it."
+msgstr "यदि आप शीर्षक, वैकल्पिक पाठ, कैप्शन या विवरण का अनुवाद करना चाहते हैं तो आपको मीडिया अनुवाद सक्रिय करना होगा। अन्यथा आप इसे सुरक्षित रूप से निष्क्रिय कर सकते हैं।"
+
+#: modules/wizard/view-wizard-step-media.php:23
+msgid "When you want to insert media in a post, only the media in the language of the current post will be displayed."
+msgstr "जब आप किसी पोस्ट में मीडिया सम्मिलित करना चाहते हैं, तो केवल वर्तमान पोस्ट की भाषा में मीडिया प्रदर्शित किया जाएगा।"
+
+#: modules/wizard/view-wizard-step-media.php:22
+msgid "When you translate a media, the file is not duplicated on your disk, however you will see one entry per language in the media library."
+msgstr "जब आप किसी मीडिया का अनुवाद करते हैं, तो फ़ाइल आपकी डिस्क पर डुप्लिकेट नहीं होती है, हालाँकि आपको मीडिया लाइब्रेरी में प्रति भाषा एक प्रविष्टि दिखाई देगी।"
+
+#: modules/wizard/view-wizard-step-media.php:21
+msgid "Polylang allows you to translate the text attached to your media, for example the title, the alternative text, the caption, or the description."
+msgstr "पॉलीलैंग आपको अपने मीडिया से जुड़े पाठ का अनुवाद करने की अनुमति देता है, उदाहरण के लिए शीर्षक, वैकल्पिक पाठ, कैप्शन या विवरण।"
+
+#: modules/wizard/view-wizard-step-last.php:107
+msgid "Return to the Dashboard"
+msgstr "डैशबोर्ड पर वापस आएं"
+
+#: modules/wizard/view-wizard-step-last.php:89
+msgid "Polylang Business Pack"
+msgstr "पॉलीलैंग बिजनेस पैक"
+
+#. translators: %s is the name of Polylang Business Pack product
+#: modules/wizard/view-wizard-step-last.php:88
+msgid "We have noticed that you are using Polylang with WooCommerce. To ensure a better compatibility, we recommend you use %s which includes both Polylang Pro and Polylang For WooCommerce."
+msgstr "हमने देखा है कि आप वूकॉमर्स के साथ पॉलीलैंग का उपयोग कर रहे हैं। बेहतर अनुकूलता सुनिश्चित करने के लिए, हम आपको %s का उपयोग करने की सलाह देते हैं जिसमें वूकॉमर्स के लिए पॉलीलैंग प्रो और पॉलीलैंग दोनों शामिल हैं।"
+
+#: modules/wizard/view-wizard-step-last.php:83
+msgid "Purchase Polylang Business Pack"
+msgstr "पॉलीलैंग बिजनेस पैक खरीदें"
+
+#: modules/wizard/view-wizard-step-last.php:82
+msgid "WooCommerce"
+msgstr "वूकॉमर्स"
+
+#: modules/wizard/view-wizard-step-last.php:73
+#: modules/wizard/view-wizard-step-last.php:97
+msgid "Buy now"
+msgstr "अभी खरीदें"
+
+#: modules/wizard/view-wizard-step-last.php:67
+msgid "Thank you for activating Polylang. If you want more advanced features - duplication, synchronization, REST API support, integration with other plugins, etc. - or further help provided by our Premium support, we recommend you upgrade to Polylang Pro."
+msgstr "पॉलीलैंग को सक्रिय करने के लिए धन्यवाद. यदि आप अधिक उन्नत सुविधाएँ चाहते हैं - डुप्लीकेशन, सिंक्रोनाइज़ेशन, रेस्ट एपीआई समर्थन, अन्य प्लगइन्स के साथ एकीकरण, आदि - या हमारे प्रीमियम समर्थन द्वारा प्रदान की जाने वाली अतिरिक्त सहायता, तो हम आपको पॉलीलैंग प्रो में अपग्रेड करने की सलाह देते हैं।"
+
+#: modules/wizard/view-wizard-step-last.php:65
+msgid "Upgrade to Polylang Pro"
+msgstr "पॉलीलैंग प्रो में अपग्रेड करें"
+
+#: modules/wizard/view-wizard-step-last.php:64
+msgid "Polylang Pro"
+msgstr "पॉलीलैंग प्रो"
+
+#: modules/wizard/view-wizard-step-last.php:56
+msgid "View pages"
+msgstr "पृष्ठ देखें"
+
+#: modules/wizard/view-wizard-step-last.php:51
+msgid "You're ready to translate the posts on your website."
+msgstr "आप अपनी वेबसाइट पर पोस्ट का अनुवाद करने के लिए तैयार हैं।"
+
+#: modules/wizard/view-wizard-step-last.php:50
+msgid "Translate some pages"
+msgstr "कुछ पृष्ठों का अनुवाद करें"
+
+#: modules/wizard/view-wizard-step-last.php:36
+msgid "To get your website ready, there are still two steps you need to perform manually: add menus in each language, and add a language switcher to allow your visitors to select their preferred language."
+msgstr "अपनी वेबसाइट तैयार करने के लिए, आपको अभी भी दो चरण मैन्युअल रूप से करने होंगे: प्रत्येक भाषा में मेनू जोड़ें, और अपने आगंतुकों को अपनी पसंदीदा भाषा चुनने की अनुमति देने के लिए एक भाषा स्विचर जोड़ें।"
+
+#: modules/wizard/view-wizard-step-last.php:34
+msgid "Create menus"
+msgstr "मेनू बनाएं"
+
+#: modules/wizard/view-wizard-step-last.php:33
+#: modules/wizard/view-wizard-step-last.php:49
+msgid "Next step"
+msgstr "अगला कदम"
+
+#: modules/wizard/view-wizard-step-last.php:24
+#: modules/wizard/view-wizard-step-last.php:42
+msgid "Read documentation"
+msgstr "दस्तावेज़ीकरण पढ़ें"
+
+#: modules/wizard/view-wizard-step-last.php:16
+msgid "You're now able to translate your contents such as posts, pages, categories and tags. You can learn how to use Polylang by reading the documentation."
+msgstr "अब आप अपनी सामग्री जैसे पोस्ट, पृष्ठ, श्रेणियां और टैग का अनुवाद करने में सक्षम हैं। आप दस्तावेज़ पढ़कर पॉलीलैंग का उपयोग करना सीख सकते हैं।"
+
+#: modules/wizard/view-wizard-step-last.php:13
+msgid "You're ready to translate your contents!"
+msgstr "आप अपनी सामग्री का अनुवाद करने के लिए तैयार हैं!"
+
+#: modules/wizard/view-wizard-step-home-page.php:97
+msgid "If you add a new language, don't forget to translate your homepage."
+msgstr "यदि आप कोई नई भाषा जोड़ते हैं, तो अपने मुखपृष्ठ का अनुवाद करना न भूलें।"
+
+#: modules/wizard/view-wizard-step-home-page.php:93
+msgid "One language is well defined and assigned to your home page."
+msgstr "एक भाषा अच्छी तरह से परिभाषित है और आपके होम पृष्ठ को सौंपी गई है।"
+
+#: modules/wizard/view-wizard-step-home-page.php:87
+msgid "We are going to prepare this page in"
+msgstr "हम इस पृष्ठ को तैयार करने जा रहे हैं"
+
+#: modules/wizard/view-wizard-step-home-page.php:49
+msgid "Your static homepage is already translated in"
+msgstr "आपका स्थिर मुखपृष्ठ पहले से ही अनुवादित है"
+
+#: modules/wizard/view-wizard-step-home-page.php:43
+msgid "After the pages is created, it is up to you to put the translated content in each page linked to each language."
+msgstr "पृष्ठ बनने के बाद, यह आप पर निर्भर है कि आप प्रत्येक भाषा से जुड़े प्रत्येक पृष्ठ में अनुवादित सामग्री डालें।"
+
+#: modules/wizard/view-wizard-step-home-page.php:40
+msgid "For your site to work correctly, this page must be translated in all available languages."
+msgstr "आपकी साइट के सही ढंग से काम करने के लिए, इस पृष्ठ का सभी उपलब्ध भाषाओं में अनुवाद किया जाना चाहिए।"
+
+#. translators: %s is the language of the front page ( flag, native name and
+#. locale )
+#: modules/wizard/view-wizard-step-home-page.php:35
+msgid "Its language is : %s."
+msgstr "इसकी भाषा है : %s।"
+
+#. translators: %s is the post title of the front page
+#: modules/wizard/view-wizard-step-home-page.php:27
+msgid "You defined this page as your static homepage: %s."
+msgstr "आपने इस पृष्ठ को अपने स्थिर मुखपृष्ठ के रूप में परिभाषित किया है: %s।"
+
+#: modules/wizard/wizard.php:853
+msgid "Ready!"
+msgstr "तैयार!"
+
+#: modules/wizard/view-wizard-step-home-page.php:22
+#: modules/wizard/wizard.php:742 modules/wizard/wizard.php:793
+msgid "Homepage"
+msgstr "मुखपृष्ठ"
+
+#: modules/wizard/wizard.php:678
+msgid "Content"
+msgstr "सामग्री"
+
+#: modules/wizard/wizard.php:504
+msgid "Remove this language"
+msgstr "इस भाषा को हटाओ"
+
+#: modules/wizard/view-wizard-step-languages.php:131
+#: modules/wizard/wizard.php:503
+msgid "Ignore"
+msgstr "अनदेखा करना"
+
+#: modules/wizard/view-wizard-step-languages.php:122
+#: modules/wizard/wizard.php:502
+msgid "No"
+msgstr "नहीं"
+
+#: modules/wizard/view-wizard-step-languages.php:113
+#: modules/wizard/wizard.php:501
+msgid "Yes"
+msgstr "हाँ"
+
+#: modules/wizard/wizard.php:500
+msgid "A language wasn't added."
+msgstr "कोई भाषा नहीं जोड़ी गई।"
+
+#: modules/wizard/wizard.php:493
+msgid "You selected a language, however, to be able to continue, you need to add it."
+msgstr "आपने एक भाषा चुनी है, हालाँकि, जारी रखने में सक्षम होने के लिए, आपको इसे जोड़ना होगा।"
+
+#: modules/wizard/wizard.php:492
+msgid "You need to add at least one language."
+msgstr "आपको कम से कम एक भाषा जोड़नी होगी।"
+
+#: modules/wizard/wizard.php:491
+msgid "You already added this language."
+msgstr "आपने यह भाषा पहले ही जोड़ ली है।"
+
+#: modules/wizard/wizard.php:490
+msgid "You need to select a language to be added."
+msgstr "आपको जोड़ी जाने वाली भाषा का चयन करना होगा।"
+
+#: modules/wizard/view-wizard-step-licenses.php:25
+#: modules/wizard/wizard.php:387
+msgid "Licenses"
+msgstr "लाइसेंस"
+
+#: modules/wizard/wizard.php:203
+msgid "Sorry, you are not allowed to manage options for this site."
+msgstr "क्षमा करें, आपको इस साइट के लिए विकल्पों को प्रबंधित करने की अनुमति नहीं है।"
+
+#: modules/wizard/wizard.php:145
+msgid "Setup"
+msgstr "सेटअप"
+
+#: modules/wizard/view-wizard-step-untranslated-contents.php:23
+msgid "Choose the language to be assigned"
+msgstr "असाइन की जाने वाली भाषा चुनें"
+
+#: modules/wizard/view-wizard-step-untranslated-contents.php:20
+msgid "The selected language below will be applied to all your content without an assigned language."
+msgstr "नीचे चयनित भाषा किसी निर्दिष्ट भाषा के बिना आपकी सभी सामग्री पर लागू की जाएगी।"
+
+#: modules/wizard/view-wizard-step-untranslated-contents.php:19
+msgid "For your site to work correctly, you need to assign a language to all your contents."
+msgstr "आपकी साइट सही ढंग से काम करे, इसके लिए आपको अपनी सभी सामग्री के लिए एक भाषा निर्धारित करनी होगी।"
+
+#: modules/wizard/view-wizard-step-untranslated-contents.php:16
+msgid "Content without language"
+msgstr "भाषा के बिना सामग्री"
+
+#: include/license.php:286
+msgid "Your license key has been disabled."
+msgstr "आपकी लाइसेंस कुंजी अक्षम कर दी गई है।"
+
+#: admin/admin-filters.php:122
+msgid "Privacy Policy Page"
+msgstr "गोपनीयता नीति पृष्ठ"
+
+#. translators: 1: Plugin name 2: Current WordPress version 3: Required
+#. WordPress version
+#: install/install.php:77
+msgid "%1$s has deactivated itself because you are using an old version of WordPress. You are using using WordPress %2$s. %1$s requires at least WordPress %3$s."
+msgstr "%1$s ने स्वयं को निष्क्रिय कर दिया है क्योंकि आप वर्डप्रेस के पुराने संस्करण का उपयोग कर रहे हैं। आप वर्डप्रेस %2$s का उपयोग कर रहे हैं। %1$s को कम से कम वर्डप्रेस %3$s की आवश्यकता है।"
+
+#. translators: 1: Plugin name 2: Current PHP version 3: Required PHP version
+#: install/install.php:53
+msgid "%1$s has deactivated itself because you are using an old version of PHP. You are using using PHP %2$s. %1$s requires PHP %3$s."
+msgstr "%1$s ने स्वयं को निष्क्रिय कर दिया है क्योंकि आप PHP के पुराने संस्करण का उपयोग कर रहे हैं। आप PHP %2$s का उपयोग कर रहे हैं। %1$s को PHP %3$s की आवश्यकता है।"
+
+#: settings/flags.php:159
+msgid "North Macedonia"
+msgstr "उत्तर मैसेडोनिया"
+
+#. translators: %1$s is a date, %2$s is link start tag, %3$s is link end tag.
+#: include/license.php:334
+msgid "Your license key will expire soon! Precisely, it will expire on %1$s. %2$sRenew your license key today!%3$s"
+msgstr "आपकी लाइसेंस कुंजी जल्द ही समाप्त हो जाएगी! निश्चित रूप से, यह %1$s पर समाप्त हो जाएगा। %2$sअपनी लाइसेंस कुंजी आज ही नवीनीकृत करें!%3$s"
+
+#: settings/settings-module.php:348
+msgid "To enable this feature, you need Polylang Pro."
+msgstr "इस सुविधा को सक्षम करने के लिए, आपको पॉलीलैंग प्रो की आवश्यकता है।"
+
+#: admin/admin-classic-editor.php:366
+msgid "If you attempt to modify them anyway, your changes will not be saved."
+msgstr "यदि आप उन्हें किसी भी तरह संशोधित करने का प्रयास करते हैं, तो आपके परिवर्तन सहेजे नहीं जाएंगे।"
+
+#: admin/admin-classic-editor.php:364
+msgid "Some taxonomies or metadata may be synchronized with existing translations that you are not allowed to modify."
+msgstr "कुछ वर्गीकरण या मेटाडेटा को मौजूदा अनुवादों के साथ सिंक्रनाइज़ किया जा सकता है जिन्हें आपको संशोधित करने की अनुमति नहीं है।"
+
+#. translators: %s is a comma separated list of native language names
+#: admin/admin-static-pages.php:144
+msgid "You must translate your static front page in %s."
+msgstr "आपको अपने स्थिर मुख पृष्ठ का %s में अनुवाद करना होगा।"
+
+#. translators: %1$s is link start tag, %2$s is link end tag.
+#: admin/admin-notices.php:269
+msgid "We have noticed that you have been using Polylang for some time. We hope you love it, and we would really appreciate it if you would %1$sgive us a 5 stars rating%2$s."
+msgstr "हमने देखा है कि आप कुछ समय से पॉलीलैंग का उपयोग कर रहे हैं। हमें आशा है कि आपको यह पसंद आएगा, और यदि आप %1$sहमें 5 स्टार रेटिंग देंगे%2$s तो हम वास्तव में इसकी सराहना करेंगे।"
+
+#. translators: %1$s is link start tag, %2$s is link end tag.
+#: admin/admin-notices.php:244
+msgid "We have noticed that you are using Polylang with WooCommerce. To ensure compatibility, we recommend you use %1$sPolylang for WooCommerce%2$s."
+msgstr "हमने देखा है कि आप वूकॉमर्स के साथ पॉलीलैंग का उपयोग कर रहे हैं। अनुकूलता सुनिश्चित करने के लिए, हम आपको %1$sवूकॉमर्स के लिए पॉलीलैंग%2$s का उपयोग करने की सलाह देते हैं।"
+
+#. translators: %1$s and %2$s are Polylang version numbers
+#: install/upgrade.php:94
+msgid "Before upgrading to %2$s, please upgrade to %1$s."
+msgstr "%2$s में अपग्रेड करने से पहले, कृपया %1$s में अपग्रेड करें।"
+
+#. Author of the plugin
+#: polylang.php
+msgid "WP SYNTEX"
+msgstr "WP सिंटेक्स"
+
+#. translators: accessibility text
+#: admin/admin-notices.php:225 modules/wizard/wizard.php:383
+#: modules/wizard/wizard.php:484 modules/wizard/wizard.php:675
+#: settings/settings.php:327
+msgid "Dismiss this notice."
+msgstr "इस सूचना को हटाएँ।"
+
+#: include/filters.php:432
+msgid "User"
+msgstr "उपयोगकर्ता"
+
+#. translators: %s is a language native name
+#: include/filters.php:423
+msgid "User description - %s"
+msgstr "उपयोगकर्ता विवरण - %s"
+
+#: include/filters.php:399
+msgid "Translated user descriptions"
+msgstr "अनुवादित उपयोगकर्ता विवरण"
+
+#: settings/flags.php:234
+msgid "Tibet"
+msgstr "तिब्बत"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: polylang.php
+msgid "https://polylang.pro"
+msgstr "https://polylang.pro"
+
+#. translators: %1$s is link start tag, %2$s is link end tag.
+#: settings/view-about.php:23
+msgid "Support and extra features are available to %1$sPolylang Pro%2$s users."
+msgstr "%1$sपॉलीलैंग प्रो%2$s उपयोगकर्ताओं के लिए समर्थन और अतिरिक्त सुविधाएं उपलब्ध हैं।"
+
+#: settings/settings-module.php:350
+msgid "Upgrade now."
+msgstr "अभी अपग्रेड करें।"
+
+#. translators: %s is a date
+#: include/license.php:342
+msgid "Your license key expires on %s."
+msgstr "आपकी लाइसेंस कुंजी %s को समाप्त हो रही है।"
+
+#: include/license.php:329
+msgid "The license key never expires."
+msgstr "लाइसेंस कुंजी कभी समाप्त नहीं होती।"
+
+#. translators: %1$s is link start tag, %2$s is link end tag
+#: include/license.php:317
+msgid "Your license key has reached its activation limit. %1$sView possible upgrades%2$s now."
+msgstr "आपकी लाइसेंस कुंजी अपनी सक्रियण सीमा तक पहुंच गई है। अभी %1$sसंभावित उन्नयन%2$s देखें।"
+
+#. translators: %s is a product name
+#: include/license.php:311
+msgid "This is not a %s license key."
+msgstr "यह %s लाइसेंस कुंजी नहीं है।"
+
+#. translators: %1$s is a product name, %2$s is link start tag, %3$s is link
+#. end tag.
+#: include/license.php:302
+msgid "Your %1$s license key is not active for this URL. Please %2$svisit your account page%3$s to manage your license key URLs."
+msgstr "इस URL के लिए आपकी %1$s लाइसेंस कुंजी सक्रिय नहीं है। कृपया अपने लाइसेंस कुंजी यूआरएल को प्रबंधित करने के लिए %2$sअपने खाता पृष्ठ पर जाएं%3$s।"
+
+#. translators: %1$s is link start tag, %2$s is link end tag.
+#: include/license.php:292
+msgid "Invalid license. Please %1$svisit your account page%2$s and verify it."
+msgstr "अवैध लाइसेंस। कृपया %1$sअपने खाता पृष्ठ पर जाएँ%2$s और इसे सत्यापित करें।"
+
+#. translators: %1$s is a date, %2$s is link start tag, %3$s is link end tag.
+#: include/license.php:277
+msgid "Your license key expired on %1$s. Please %2$srenew your license key%3$s."
+msgstr "आपकी लाइसेंस कुंजी %1$s को समाप्त हो गई। कृपया %2$sअपनी लाइसेंस कुंजी नवीनीकृत करें%3$s।"
+
+#: settings/settings-licenses.php:39
+msgid "Manage licenses for Polylang Pro and add-ons."
+msgstr "पॉलीलैंग प्रो और ऐड-ऑन के लिए लाइसेंस प्रबंधित करें।"
+
+#: settings/settings-licenses.php:38
+msgid "License keys"
+msgstr "लाइसेंस कुंजियाँ"
+
+#: modules/translate-slugs/settings-preview-translate-slugs.php:54
+msgid "Allows to translate custom post types and taxonomies slugs in URLs."
+msgstr "यूआरएल में कस्टम पोस्ट प्रकार और टैक्सोनोमी स्लग का अनुवाद करने की अनुमति देता है।"
+
+#: modules/translate-slugs/settings-preview-translate-slugs.php:38
+msgid "Translate slugs"
+msgstr "स्लग का अनुवाद करें"
+
+#: modules/share-slug/settings-preview-share-slug.php:54
+msgid "Allows to share the same URL slug across languages for posts and terms."
+msgstr "पोस्ट और शर्तों के लिए समान यूआरएल स्लग को सभी भाषाओं में साझा करने की अनुमति देता है।"
+
+#: modules/share-slug/settings-preview-share-slug.php:38
+msgid "Share slugs"
+msgstr "स्लग साझा करें"
+
+#: install/plugin-updater.php:573
+msgid "Error"
+msgstr "त्रुटि"
+
+#: install/plugin-updater.php:573
+msgid "You do not have permission to install plugin updates"
+msgstr "आपके पास प्लगइन अपडेट इंस्टॉल करने की अनुमति नहीं है"
+
+#. translators: Post calendar label. %s: Date.
+#: include/widget-calendar.php:292
+msgid "Posts published on %s"
+msgstr "%s पर प्रकाशित पोस्ट"
+
+#: include/widget-calendar.php:290
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: settings/view-tab-lang.php:140
+msgid "Choose a flag for the language."
+msgstr "भाषा के लिए एक फ्लैग चुनें।"
+
+#. translators: accessibility text
+#: settings/table-string.php:346
+msgid "Filter by group"
+msgstr "समूह के अनुसार फ़िल्टर करें"
+
+#. translators:  accessibility text, %s is a string potentially in any language
+#: settings/table-string.php:102
+msgid "Select %s"
+msgstr "चयन करें %s"
+
+#: settings/table-settings.php:149
+msgid "Description"
+msgstr "विवरण"
+
+#: settings/table-settings.php:148
+msgid "Module"
+msgstr "मॉड्यूल"
+
+#: settings/settings-module.php:170
+msgid "Save Changes"
+msgstr "बदलाव सहेजें"
+
+#: settings/settings-module.php:169 js/build/block-editor.js:79
+#: js/build/classic-editor.js:79
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: settings/table-languages.php:211
+msgid "Delete this language and all its associated data"
+msgstr "इस भाषा और इससे जुड़े सभी डेटा को हटा दें"
+
+#. translators: accessibility text, %s is a native language name
+#: settings/table-languages.php:117
+msgid "Choose %s as default language"
+msgstr "डिफ़ॉल्ट भाषा के रूप में %s चुनें"
+
+#: settings/table-languages.php:114
+msgid "Select as default language"
+msgstr "डिफ़ॉल्ट भाषा के रूप में चयन करें"
+
+#: settings/table-languages.php:93 settings/table-languages.php:205
+msgid "Edit this language"
+msgstr "इस भाषा को संपादित करें"
+
+#: settings/settings.php:345
+msgid "You can set them all to the default language."
+msgstr "आप उन सभी को डिफ़ॉल्ट भाषा में सेट कर सकते हैं।"
+
+#: modules/wizard/view-wizard-step-untranslated-contents.php:18
+#: settings/settings.php:343
+msgid "There are posts, pages, categories or tags without language."
+msgstr "बिना भाषा के पोस्ट, पृष्ठ, श्रेणियां या टैग हैं।"
+
+#. translators: %s is a URL.
+#: include/Options/Business/Domains.php:161
+msgid "Polylang was unable to access the %s URL. Please check that the URL is valid."
+msgstr "पॉलीलैंग %s यूआरएल तक पहुंचने में असमर्थ था। कृपया जाँचें कि यूआरएल वैध है।"
+
+#. translators: %s is a native language name.
+#: include/Options/Business/Domains.php:130
+msgid "Please enter a valid URL for %s."
+msgstr "कृपया %s के लिए एक मान्य URL दर्ज करें।"
+
+#: settings/settings-url.php:39
+msgid "Decide how your URLs will look like."
+msgstr "तय करें कि आपके यूआरएल कैसे दिखेंगे।"
+
+#: settings/settings-module.php:165
+msgid "Deactivated"
+msgstr "निष्क्रिय"
+
+#: settings/settings-module.php:160
+msgid "Activate this module"
+msgstr "इस मॉड्यूल को सक्रिय करें"
+
+#: include/license.php:326 settings/settings-module.php:156
+msgid "Deactivate"
+msgstr "निष्क्रिय करें"
+
+#: settings/settings-module.php:154
+msgid "Deactivate this module"
+msgstr "इस मॉड्यूल को निष्क्रिय करें"
+
+#: settings/settings-module.php:148
+msgid "Configure this module"
+msgstr "इस मॉड्यूल को कॉन्फ़िगर करें"
+
+#: settings/settings-cpt.php:60
+msgid "Activate languages and translations management for the custom post types and the taxonomies."
+msgstr "कस्टम पोस्ट प्रकारों और वर्गीकरणों के लिए भाषाओं और अनुवाद प्रबंधन को सक्रिय करें।"
+
+#: settings/settings-cpt.php:59
+msgid "Custom post types and Taxonomies"
+msgstr "कस्टम पोस्ट प्रकार और टेक्सोनोमी"
+
+#: settings/flags.php:266
+msgid "Zimbabwe"
+msgstr "जिम्बाब्वे"
+
+#: settings/flags.php:265
+msgid "Zambia"
+msgstr "ज़ाम्बिया"
+
+#: settings/flags.php:264
+msgid "South Africa"
+msgstr "दक्षिण अफ्रीका"
+
+#: settings/flags.php:263
+msgid "Mayotte"
+msgstr "मायट"
+
+#: settings/flags.php:262
+msgid "Yemen"
+msgstr "यमन"
+
+#: settings/flags.php:261
+msgid "Western Samoa"
+msgstr "पश्चिमी समोआ"
+
+#: settings/flags.php:260
+msgid "Wallis and Futuna"
+msgstr "वैलिस और फ्यूटूना"
+
+#: settings/flags.php:259
+msgid "Wales"
+msgstr "वेल्स"
+
+#: settings/flags.php:258
+msgid "Vanuatu"
+msgstr "वानुअतु"
+
+#: settings/flags.php:257
+msgid "Vietnam"
+msgstr "वियतनाम"
+
+#: settings/flags.php:256
+msgid "United States Virgin Islands"
+msgstr "संयुक्त राज्य अमेरिका वर्जिन द्वीप समूह"
+
+#: settings/flags.php:255
+msgid "British Virgin Islands"
+msgstr "ब्रिटिश वर्जिन द्वीप समूह"
+
+#: settings/flags.php:254
+msgid "Veneto"
+msgstr "वेनेटो"
+
+#: settings/flags.php:253
+msgid "Venezuela"
+msgstr "वेनेजुएला"
+
+#: settings/flags.php:252
+msgid "Saint Vincent and the Grenadines"
+msgstr "सैंट विंसेंट और द ग्रेनडीनेस"
+
+#: settings/flags.php:251
+msgid "Vatican"
+msgstr "वेटिकन"
+
+#: settings/flags.php:250
+msgid "Uzbekistan"
+msgstr "उज़्बेकिस्तान"
+
+#: settings/flags.php:249
+msgid "Uruguay"
+msgstr "उरुग्वे"
+
+#: settings/flags.php:248
+msgid "United States"
+msgstr "संयुक्त राज्य अमेरिका"
+
+#: settings/flags.php:247
+msgid "Uganda"
+msgstr "युगांडा"
+
+#: settings/flags.php:246
+msgid "Ukraine"
+msgstr "यूक्रेन"
+
+#: settings/flags.php:245
+msgid "Tanzania"
+msgstr "तंजानिया"
+
+#: settings/flags.php:244
+msgid "Taiwan"
+msgstr "ताइवान"
+
+#: settings/flags.php:243
+msgid "Tuvalu"
+msgstr "तुवालु"
+
+#: settings/flags.php:242
+msgid "Trinidad and Tobago"
+msgstr "त्रिनिदाद और टोबैगो"
+
+#: settings/flags.php:241
+msgid "Turkey"
+msgstr "तुर्की"
+
+#: settings/flags.php:240
+msgid "Tonga"
+msgstr "टोंगा"
+
+#: settings/flags.php:239
+msgid "Tunisia"
+msgstr "तुनिशिया"
+
+#: settings/flags.php:238
+msgid "Turkmenistan"
+msgstr "तुर्कमेनिस्तान"
+
+#: settings/flags.php:237
+msgid "Timor-Leste"
+msgstr "तिमोर-लेस्त"
+
+#: settings/flags.php:236
+msgid "Tokelau"
+msgstr "तोकेलौ"
+
+#: settings/flags.php:235
+msgid "Tajikistan"
+msgstr "ताजीकिस्तान"
+
+#: settings/flags.php:233
+msgid "Thailand"
+msgstr "थाईलैंड"
+
+#: settings/flags.php:232
+msgid "Togo"
+msgstr "टोगो"
+
+#: settings/flags.php:231
+msgid "French Southern Territories"
+msgstr "फ्राँसिसी दक्षिणी क्षेत्र"
+
+#: settings/flags.php:230
+msgid "Chad"
+msgstr "चाड"
+
+#: settings/flags.php:229
+msgid "Turks and Caicos Islands"
+msgstr "तुर्क्स और कैकोज़ द्वीपसमूह"
+
+#: settings/flags.php:228
+msgid "Swaziland"
+msgstr "स्वाजीलैंड"
+
+#: settings/flags.php:227
+msgid "Syria"
+msgstr "सीरिया"
+
+#: settings/flags.php:226
+msgid "El Salvador"
+msgstr "अल साल्वाडोर"
+
+#: settings/flags.php:225
+msgid "São Tomé and Príncipe"
+msgstr "साओ टोमे और प्रिंसिपे"
+
+#: settings/flags.php:224
+msgid "South Sudan"
+msgstr "दक्षिण सूडान"
+
+#: settings/flags.php:223
+msgid "Suriname"
+msgstr "सूरीनाम"
+
+#: settings/flags.php:222
+msgid "Somalia"
+msgstr "सोमालिया"
+
+#: settings/flags.php:221
+msgid "Senegal"
+msgstr "सेनेगल"
+
+#: settings/flags.php:220
+msgid "San Marino"
+msgstr "सैन मारिनो"
+
+#: settings/flags.php:219
+msgid "Sierra Leone"
+msgstr "सिएरा लियोन"
+
+#: settings/flags.php:218
+msgid "Slovakia"
+msgstr "स्लोवाकिया"
+
+#: settings/flags.php:217
+msgid "Slovenia"
+msgstr "स्लोवेनिया"
+
+#: settings/flags.php:216
+msgid "Saint Helena"
+msgstr "सैंट हेलेना"
+
+#: settings/flags.php:215
+msgid "Singapore"
+msgstr "सिंगापुर"
+
+#: settings/flags.php:214
+msgid "Sweden"
+msgstr "स्वीडन"
+
+#: settings/flags.php:213
+msgid "Sudan"
+msgstr "सूडान"
+
+#: settings/flags.php:212
+msgid "Scotland"
+msgstr "स्कॉटलैंड"
+
+#: settings/flags.php:211
+msgid "Seychelles"
+msgstr "सेशेल्स"
+
+#: settings/flags.php:210
+msgid "Solomon Islands"
+msgstr "सोलोमन द्वीप समूह"
+
+#: settings/flags.php:209
+msgid "Saudi Arabia"
+msgstr "सऊदी अरब"
+
+#: settings/flags.php:208
+msgid "Rwanda"
+msgstr "रवांडा"
+
+#: settings/flags.php:207
+msgid "Russia"
+msgstr "रूस"
+
+#: settings/flags.php:206
+msgid "Serbia"
+msgstr "सर्बिया"
+
+#: settings/flags.php:205
+msgid "Romania"
+msgstr "रोमानिया"
+
+#: settings/flags.php:204
+msgid "Quebec"
+msgstr "क्यूबेक"
+
+#: settings/flags.php:203
+msgid "Qatar"
+msgstr "क़तर"
+
+#: settings/flags.php:202
+msgid "Paraguay"
+msgstr "परागुआ"
+
+#: settings/flags.php:201
+msgid "Belau"
+msgstr "बेलौ"
+
+#: settings/flags.php:200
+msgid "Portugal"
+msgstr "पुर्तगाल"
+
+#: settings/flags.php:199
+msgid "Palestinian Territory"
+msgstr "फ़िलिस्तीन राष्ट्र"
+
+#: settings/flags.php:198
+msgid "Puerto Rico"
+msgstr "पोर्टो रीको"
+
+#: settings/flags.php:197
+msgid "Pitcairn"
+msgstr "पिटकैरन"
+
+#: settings/flags.php:196
+msgid "Saint Pierre and Miquelon"
+msgstr "सेंट पियरे और मिकेलॉन"
+
+#: settings/flags.php:195
+msgid "Poland"
+msgstr "पोलैंड"
+
+#: settings/flags.php:194
+msgid "Pakistan"
+msgstr "पाकिस्तान"
+
+#: settings/flags.php:193
+msgid "Philippines"
+msgstr "फिलीपींस"
+
+#: settings/flags.php:192
+msgid "Papua New Guinea"
+msgstr "पापुआ न्यू गिनी"
+
+#: settings/flags.php:191
+msgid "French Polynesia"
+msgstr "फ्रेंच पॉलीनेशिया"
+
+#: settings/flags.php:190
+msgid "Peru"
+msgstr "पेरू"
+
+#: settings/flags.php:189
+msgid "Panama"
+msgstr "पनामा"
+
+#: settings/flags.php:188
+msgid "Oman"
+msgstr "ओमान"
+
+#: settings/flags.php:187
+msgid "Occitania"
+msgstr "ओसीटानिया"
+
+#: settings/flags.php:186
+msgid "New Zealand"
+msgstr "न्यूजीलैंड"
+
+#: settings/flags.php:185
+msgid "Niue"
+msgstr "न्यू"
+
+#: settings/flags.php:184
+msgid "Nauru"
+msgstr "नाउरू"
+
+#: settings/flags.php:183
+msgid "Nepal"
+msgstr "नेपाल"
+
+#: settings/flags.php:182
+msgid "Norway"
+msgstr "नॉर्वे"
+
+#: settings/flags.php:181
+msgid "Netherlands"
+msgstr "नीदरलैंड"
+
+#: settings/flags.php:180
+msgid "Nicaragua"
+msgstr "निकारागुआ"
+
+#: settings/flags.php:179
+msgid "Nigeria"
+msgstr "नाइजीरिया"
+
+#: settings/flags.php:178
+msgid "Norfolk Island"
+msgstr "नॉरफ़ॉक द्वीप"
+
+#: settings/flags.php:177
+msgid "Niger"
+msgstr "नाइजर"
+
+#: settings/flags.php:176
+msgid "New Caledonia"
+msgstr "न्यू कैलेडोनिया"
+
+#: settings/flags.php:175
+msgid "Namibia"
+msgstr "नामीबिया"
+
+#: settings/flags.php:174
+msgid "Mozambique"
+msgstr "मोजाम्बिक"
+
+#: settings/flags.php:173
+msgid "Malaysia"
+msgstr "मलेशिया"
+
+#: settings/flags.php:172
+msgid "Mexico"
+msgstr "मेक्सिको"
+
+#: settings/flags.php:171
+msgid "Malawi"
+msgstr "मलावी"
+
+#: settings/flags.php:170
+msgid "Maldives"
+msgstr "मालदीव"
+
+#: settings/flags.php:169
+msgid "Mauritius"
+msgstr "मॉरीशस"
+
+#: settings/flags.php:168
+msgid "Malta"
+msgstr "माल्टा"
+
+#: settings/flags.php:167
+msgid "Montserrat"
+msgstr "मोंटेसेराट"
+
+#: settings/flags.php:166
+msgid "Mauritania"
+msgstr "मॉरिटानिया"
+
+#: settings/flags.php:165
+msgid "Martinique"
+msgstr "मार्टीनिक"
+
+#: settings/flags.php:164
+msgid "Northern Mariana Islands"
+msgstr "उत्तरी मरीयाना द्वीप समूह"
+
+#: settings/flags.php:163
+msgid "Macao"
+msgstr "मकाओ"
+
+#: settings/flags.php:162
+msgid "Mongolia"
+msgstr "मंगोलिया"
+
+#: settings/flags.php:161
+msgid "Myanmar"
+msgstr "म्यांमार"
+
+#: settings/flags.php:160
+msgid "Mali"
+msgstr "माली"
+
+#: settings/flags.php:158
+msgid "Marshall Islands"
+msgstr "मार्शल द्वीप समूह"
+
+#: settings/flags.php:157
+msgid "Madagascar"
+msgstr "मेडागास्कर"
+
+#: settings/flags.php:156
+msgid "Montenegro"
+msgstr "मोंटेनेग्रो"
+
+#: settings/flags.php:155
+msgid "Moldova"
+msgstr "माल्डोवा"
+
+#: settings/flags.php:154
+msgid "Monaco"
+msgstr "मोनाको"
+
+#: settings/flags.php:153
+msgid "Morocco"
+msgstr "मोरक्को"
+
+#: settings/flags.php:152
+msgid "Libya"
+msgstr "लीबिया"
+
+#: settings/flags.php:151
+msgid "Latvia"
+msgstr "लातविया"
+
+#: settings/flags.php:150
+msgid "Luxembourg"
+msgstr "लक्ज़मबर्ग"
+
+#: settings/flags.php:149
+msgid "Lithuania"
+msgstr "लिथुआनिया"
+
+#: settings/flags.php:148
+msgid "Lesotho"
+msgstr "लेसोथो"
+
+#: settings/flags.php:147
+msgid "Liberia"
+msgstr "लाइबेरिया"
+
+#: settings/flags.php:146
+msgid "Sri Lanka"
+msgstr "श्रीलंका"
+
+#: settings/flags.php:145
+msgid "Liechtenstein"
+msgstr "लिकटेंस्टीन"
+
+#: settings/flags.php:144
+msgid "Saint Lucia"
+msgstr "सेंट लूसिया"
+
+#: settings/flags.php:143
+msgid "Lebanon"
+msgstr "लेबनान"
+
+#: settings/flags.php:142
+msgid "Laos"
+msgstr "लाओस"
+
+#: settings/flags.php:141
+msgid "Kazakhstan"
+msgstr "कजाखस्तान"
+
+#: settings/flags.php:140
+msgid "Cayman Islands"
+msgstr "केमैन द्वीपसमूह"
+
+#: settings/flags.php:139
+msgid "Kuwait"
+msgstr "कुवैत"
+
+#: settings/flags.php:138
+msgid "Kurdistan"
+msgstr "कुर्दिस्तान"
+
+#: settings/flags.php:137
+msgid "South Korea"
+msgstr "दक्षिण कोरिया"
+
+#: settings/flags.php:136
+msgid "North Korea"
+msgstr "उत्तर कोरिया"
+
+#: settings/flags.php:135
+msgid "Saint Kitts and Nevis"
+msgstr "सैंट किट्ट्स और नेविस"
+
+#: settings/flags.php:134
+msgid "Comoros"
+msgstr "कोमोरोस"
+
+#: settings/flags.php:133
+msgid "Kiribati"
+msgstr "किरिबाती"
+
+#: settings/flags.php:132
+msgid "Cambodia"
+msgstr "कंबोडिया"
+
+#: settings/flags.php:131
+msgid "Kyrgyzstan"
+msgstr "किर्गिज़स्तान"
+
+#: settings/flags.php:130
+msgid "Kenya"
+msgstr "केन्या"
+
+#: settings/flags.php:129
+msgid "Japan"
+msgstr "जापान"
+
+#: settings/flags.php:128
+msgid "Jordan"
+msgstr "जॉर्डन"
+
+#: settings/flags.php:127
+msgid "Jamaica"
+msgstr "जमैका"
+
+#: settings/flags.php:126
+msgid "Italy"
+msgstr "इटली"
+
+#: settings/flags.php:125
+msgid "Iceland"
+msgstr "आइसलैंड"
+
+#: settings/flags.php:124
+msgid "Iran"
+msgstr "ईरान"
+
+#: settings/flags.php:123
+msgid "Iraq"
+msgstr "इराक"
+
+#: settings/flags.php:122
+msgid "British Indian Ocean Territory"
+msgstr "ब्रिटेन और भारतीय समुद्री क्षेत्र"
+
+#: settings/flags.php:121
+msgid "India"
+msgstr "भारत"
+
+#: settings/flags.php:120
+msgid "Israel"
+msgstr "इजराइल"
+
+#: settings/flags.php:119
+msgid "Republic of Ireland"
+msgstr "आयरलैंड गणराज्य"
+
+#: settings/flags.php:118
+msgid "Indonesia"
+msgstr "इंडोनेशिया"
+
+#: settings/flags.php:117
+msgid "Hungary"
+msgstr "हंगरी"
+
+#: settings/flags.php:116
+msgid "Haiti"
+msgstr "हैती"
+
+#: settings/flags.php:115
+msgid "Croatia"
+msgstr "क्रोएशिया"
+
+#: settings/flags.php:114
+msgid "Honduras"
+msgstr "होंडुरस"
+
+#: settings/flags.php:113
+msgid "Heard Island and McDonald Islands"
+msgstr "हर्ड आइलैंड्स एंड मैक्डोनाल्ड आइलैंड्स"
+
+#: settings/flags.php:112
+msgid "Hong Kong"
+msgstr "हॉंगकॉंग"
+
+#: settings/flags.php:111
+msgid "Guyana"
+msgstr "गुयाना"
+
+#: settings/flags.php:110
+msgid "Guinea-Bissau"
+msgstr "गिनी-बिसाऊ"
+
+#: settings/flags.php:109
+msgid "Guam"
+msgstr "गुआम"
+
+#: settings/flags.php:108
+msgid "Guatemala"
+msgstr "ग्वाटेमाला"
+
+#: settings/flags.php:107
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "दक्षिण जॉर्जिया और दक्षिण सैंडविच द्वीप समूह"
+
+#: settings/flags.php:106
+msgid "Greece"
+msgstr "ग्रीस"
+
+#: settings/flags.php:105
+msgid "Equatorial Guinea"
+msgstr "इक्वेटोरियल गिनी"
+
+#: settings/flags.php:104
+msgid "Guadeloupe"
+msgstr "गुआदेलूप"
+
+#: settings/flags.php:103
+msgid "Guinea"
+msgstr "गिनी"
+
+#: settings/flags.php:102
+msgid "Gambia"
+msgstr "गैम्बिया"
+
+#: settings/flags.php:101
+msgid "Greenland"
+msgstr "ग्रीन‌लैंड‌"
+
+#: settings/flags.php:100
+msgid "Gibraltar"
+msgstr "जिब्राल्टर"
+
+#: settings/flags.php:99
+msgid "Ghana"
+msgstr "घाना"
+
+#: settings/flags.php:98
+msgid "Georgia"
+msgstr "जॉर्जिया"
+
+#: settings/flags.php:97
+msgid "Grenada"
+msgstr "ग्रेनेडा"
+
+#: settings/flags.php:96
+msgid "United Kingdom"
+msgstr "यूनाइटेड किंगडम"
+
+#: settings/flags.php:95
+msgid "Galicia"
+msgstr "गैलिसिया"
+
+#: settings/flags.php:94
+msgid "Gabon"
+msgstr "गैबॉन"
+
+#: settings/flags.php:93
+msgid "France"
+msgstr "फ्रांस"
+
+#: settings/flags.php:92
+msgid "Faroe Islands"
+msgstr "फ़ैरो द्वीप समूह"
+
+#: settings/flags.php:91
+msgid "Micronesia"
+msgstr "माइक्रोनेशिया"
+
+#: settings/flags.php:90
+msgid "Falkland Islands"
+msgstr "फ़ॉकलैंड द्वीप समूह"
+
+#: settings/flags.php:89
+msgid "Fiji"
+msgstr "फिजी"
+
+#: settings/flags.php:88
+msgid "Finland"
+msgstr "फिनलैंड"
+
+#: settings/flags.php:87
+msgid "Ethiopia"
+msgstr "इथियोपिया"
+
+#: settings/flags.php:86
+msgid "Esperanto"
+msgstr "एस्पेरांतो"
+
+#: settings/flags.php:85
+msgid "Spain"
+msgstr "स्पेन"
+
+#: settings/flags.php:84
+msgid "Eritrea"
+msgstr "इरिट्रिया"
+
+#: settings/flags.php:83
+msgid "England"
+msgstr "इंगलैंड"
+
+#: settings/flags.php:82
+msgid "Western Sahara"
+msgstr "पश्चिमी सहारा"
+
+#: settings/flags.php:81
+msgid "Egypt"
+msgstr "मिस्र"
+
+#: settings/flags.php:80
+msgid "Estonia"
+msgstr "एस्तोनिया"
+
+#: settings/flags.php:79
+msgid "Ecuador"
+msgstr "इक्वेडोर"
+
+#: settings/flags.php:78
+msgid "Algeria"
+msgstr "एलजीरिया"
+
+#: settings/flags.php:77
+msgid "Dominican Republic"
+msgstr "डोमिनिकन गणराज्य"
+
+#: settings/flags.php:76
+msgid "Dominica"
+msgstr "डोमिनिका"
+
+#: settings/flags.php:75
+msgid "Denmark"
+msgstr "डेनमार्क"
+
+#: settings/flags.php:74
+msgid "Djibouti"
+msgstr "जिबूती"
+
+#: settings/flags.php:73
+msgid "Germany"
+msgstr "जर्मनी"
+
+#: settings/flags.php:72
+msgid "Czech Republic"
+msgstr "चेक गणराज्य"
+
+#: settings/flags.php:71
+msgid "Cyprus"
+msgstr "साइप्रस"
+
+#: settings/flags.php:70
+msgid "Christmas Island"
+msgstr "क्रिसमस द्वीपसमूह"
+
+#: settings/flags.php:69
+msgid "Cape Verde"
+msgstr "केप वर्ड"
+
+#: settings/flags.php:68
+msgid "Cuba"
+msgstr "क्यूबा"
+
+#: settings/flags.php:67
+msgid "Costa Rica"
+msgstr "कोस्टा रिका"
+
+#: settings/flags.php:66
+msgid "Colombia"
+msgstr "कोलम्बिया"
+
+#: settings/flags.php:65
+msgid "China"
+msgstr "चीन"
+
+#: settings/flags.php:64
+msgid "Cameroon"
+msgstr "कैमरून"
+
+#: settings/flags.php:63
+msgid "Chile"
+msgstr "चिली"
+
+#: settings/flags.php:62
+msgid "Cook Islands"
+msgstr "कुक द्वीपसमूह"
+
+#: settings/flags.php:61
+msgid "Ivory Coast"
+msgstr "आइवरी कॉस्ट"
+
+#: settings/flags.php:60
+msgid "Switzerland"
+msgstr "स्विट्जरलैंड"
+
+#: settings/flags.php:59
+msgid "Congo"
+msgstr "कांगो"
+
+#: settings/flags.php:58
+msgid "Central African Republic"
+msgstr "केंद्रीय अफ्रीकन गणराज्य"
+
+#: settings/flags.php:57
+msgid "Democratic Republic of the Congo"
+msgstr "कांगो लोकतांत्रिक गणराज्य"
+
+#: settings/flags.php:56
+msgid "Cocos"
+msgstr "कोकोज़"
+
+#: settings/flags.php:55
+msgid "Catalonia"
+msgstr "कैटालोनिया"
+
+#: settings/flags.php:54
+msgid "Canada"
+msgstr "कनाडा"
+
+#: settings/flags.php:53
+msgid "Belize"
+msgstr "बेलीज़"
+
+#: settings/flags.php:52
+msgid "Belarus"
+msgstr "बेलोरूस"
+
+#: settings/flags.php:51
+msgid "Botswana"
+msgstr "बोत्सवाना"
+
+#: settings/flags.php:50
+msgid "Bhutan"
+msgstr "भूटान"
+
+#: settings/flags.php:49
+msgid "Bahamas"
+msgstr "बहामास"
+
+#: settings/flags.php:48
+msgid "Brazil"
+msgstr "ब्राज़िल"
+
+#: settings/flags.php:47
+msgid "Bolivia"
+msgstr "बोलीविया"
+
+#: settings/flags.php:46
+msgid "Brunei"
+msgstr "ब्रूनेई"
+
+#: settings/flags.php:45
+msgid "Bermuda"
+msgstr "बरमूडा"
+
+#: settings/flags.php:44
+msgid "Benin"
+msgstr "बेनिन"
+
+#: settings/flags.php:43
+msgid "Burundi"
+msgstr "बुरुंडी"
+
+#: settings/flags.php:42
+msgid "Bahrain"
+msgstr "बहरीन"
+
+#: settings/flags.php:41
+msgid "Bulgaria"
+msgstr "बुल्गारिया"
+
+#: settings/flags.php:40
+msgid "Burkina Faso"
+msgstr "बुर्किना फासो"
+
+#: settings/flags.php:39
+msgid "Belgium"
+msgstr "बेल्जियम"
+
+#: settings/flags.php:38
+msgid "Bangladesh"
+msgstr "बांग्लादेश"
+
+#: settings/flags.php:37
+msgid "Barbados"
+msgstr "बार्बेडोस"
+
+#: settings/flags.php:36
+msgid "Basque Country"
+msgstr "बास्क देश"
+
+#: settings/flags.php:35
+msgid "Bosnia and Herzegovina"
+msgstr "बोस्निया और हर्जेगोविना"
+
+#: settings/flags.php:34
+msgid "Azerbaijan"
+msgstr "आज़रबाइजान"
+
+#: settings/flags.php:33
+msgid "Åland Islands"
+msgstr "ऑलैंड द्वीप समूह"
+
+#: settings/flags.php:32
+msgid "Aruba"
+msgstr "अरूबा"
+
+#: settings/flags.php:31
+msgid "Australia"
+msgstr "ऑस्ट्रेलिया"
+
+#: settings/flags.php:30
+msgid "Austria"
+msgstr "ऑस्ट्रिया"
+
+#: settings/flags.php:29
+msgid "American Samoa"
+msgstr "अमेरिकन समोआ"
+
+#: settings/flags.php:28
+msgid "Arab league"
+msgstr "अरब लीग"
+
+#: settings/flags.php:27
+msgid "Argentina"
+msgstr "अर्जेंटीना"
+
+#: settings/flags.php:26
+msgid "Angola"
+msgstr "अंगोला"
+
+#: settings/flags.php:25
+msgid "Netherlands Antilles"
+msgstr "नीदरलैंड्स एंटाइल्स"
+
+#: settings/flags.php:24
+msgid "Armenia"
+msgstr "अर्मेनिआ"
+
+#: settings/flags.php:23
+msgid "Albania"
+msgstr "अल्बानिया"
+
+#: settings/flags.php:22
+msgid "Anguilla"
+msgstr "एंगुइल्ला"
+
+#: settings/flags.php:21
+msgid "Antigua and Barbuda"
+msgstr "एंटीगुआ और बारबुडा"
+
+#: settings/flags.php:20
+msgid "Afghanistan"
+msgstr "अफ़ग़ानिस्तान"
+
+#: settings/flags.php:19
+msgid "United Arab Emirates"
+msgstr "संयुक्त अरब अमीरात"
+
+#: settings/flags.php:18
+msgid "Andorra"
+msgstr "एंडोरा"
+
+#. translators: accessibility text
+#: admin/view-translations-post.php:61 admin/view-translations-term.php:80
+msgid "Translation"
+msgstr "अनुवाद"
+
+#: admin/admin-static-pages.php:56
+msgid "Posts Page"
+msgstr "पोस्ट पृष्ठ"
+
+#: admin/admin-static-pages.php:52
+msgid "Front Page"
+msgstr "मुखपृष्ठ"
+
+#: admin/admin-nav-menu.php:82
+msgid "Add to Menu"
+msgstr "मेनू में जोड़ें"
+
+#: include/Model/Languages.php:877 modules/wizard/wizard.php:499
+msgid "The flag does not exist"
+msgstr "फ्लैग मौजूद नहीं है"
+
+#. translators: accessibility text, %s is a native language name
+#: admin/admin-links.php:27
+msgid "Add a translation in %s"
+msgstr "%s में अनुवाद जोड़ें"
+
+#. translators: accessibility text, %s is a native language name
+#: admin/admin-filters-columns.php:194 admin/admin-filters-columns.php:327
+msgid "This item is in %s"
+msgstr "यह आइटम %s में है"
+
+#. translators: accessibility text, %s is a native language name
+#: admin/admin-filters-columns.php:175 admin/admin-filters-columns.php:313
+#: admin/admin-links.php:54
+msgid "Edit the translation in %s"
+msgstr "अनुवाद को %s में संपादित करें"
+
+#. translators: accessibility text, %s is a native language name
+#: admin/admin-filters-columns.php:171 admin/admin-filters-columns.php:309
+msgid "Edit this item in %s"
+msgstr "इस आइटम को %s में संपादित करें"
+
+#. Description of the plugin
+#: polylang.php
+msgid "Adds multilingual capability to WordPress"
+msgstr "वर्डप्रेस में बहुभाषी क्षमता जोड़ता है"
+
+#. Plugin Name of the plugin
+#: polylang.php
+msgid "Polylang"
+msgstr "Polylang"
+
+#: settings/settings-module.php:162
+msgid "Activate"
+msgstr "सक्रिय करें"
+
+#: settings/settings-module.php:164
+msgid "Activated"
+msgstr "सक्रिय"
+
+#: settings/settings-licenses.php:43
+msgid "Close"
+msgstr "बंद करें"
+
+#: install/upgrade.php:91
+msgid "Polylang has been deactivated because you upgraded from a too old version."
+msgstr "पॉलीलैंग निष्क्रिय कर दिया गया है क्योंकि आपने बहुत पुराने संस्करण से अपग्रेड किया है।"
+
+#: include/widget-languages.php:154
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#: include/widget-languages.php:34
+msgid "Displays a language switcher"
+msgstr "एक भाषा स्विचर प्रदर्शित करता है"
+
+#. translators: Calendar caption: 1: Month name, 2: 4-digit year.
+#: include/widget-calendar.php:219
+msgctxt "calendar caption"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: include/switcher.php:46
+msgid "Displays as a dropdown"
+msgstr "ड्रॉपडाउन के रूप में प्रदर्शित होता है"
+
+#: include/switcher.php:51
+msgid "Hides languages with no translation"
+msgstr "बिना अनुवाद वाली भाषाओं को छुपाता है"
+
+#: include/switcher.php:50
+msgid "Hides the current language"
+msgstr "वर्तमान भाषा छुपाता है"
+
+#: include/switcher.php:49
+msgid "Forces link to front page"
+msgstr "मुख पृष्ठ पर लिंक को बाध्य करता है"
+
+#: include/switcher.php:48
+msgid "Displays flags"
+msgstr "फ्लैग प्रदर्शित करता है"
+
+#: include/switcher.php:47
+msgid "Displays language names"
+msgstr "भाषा के नाम प्रदर्शित करता है"
+
+#: integrations/wp-importer/wordpress-importer.php:45
+msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
+msgstr "वर्डप्रेस निर्यात फ़ाइल से <strong>पोस्ट, पृष्ठ, टिप्पणियाँ, कस्टम फ़ील्ड, श्रेणियां और टैग</strong> आयात करें।"
+
+#: include/default-term.php:132
+msgid "Uncategorized"
+msgstr "बिना श्रेणी"
+
+#. translators: Hidden accessibility text.
+#: frontend/frontend-filters-search.php:122
+#: frontend/frontend-filters-search.php:124
+msgid "Search"
+msgstr "खोजें"
+
+#: settings/view-tab-strings.php:21
+msgid "Use this to remove unused strings from database, for example after a plugin has been uninstalled."
+msgstr "डेटाबेस से अप्रयुक्त स्ट्रिंग्स को हटाने के लिए इसका उपयोग करें, उदाहरण के लिए किसी प्लगइन को अनइंस्टॉल करने के बाद।"
+
+#: settings/view-tab-strings.php:19
+msgid "Clean strings translation database"
+msgstr "स्वच्छ स्ट्रिंग अनुवाद डेटाबेस"
+
+#: settings/view-tab-strings.php:16
+msgid "Search translations"
+msgstr "अनुवाद खोजें"
+
+#: modules/sync/settings-sync.php:32
+msgid "The synchronization options allow to maintain exact same values (or translations in the case of taxonomies and page parent) of meta content between the translations of a post or page."
+msgstr "सिंक्रोनाइज़ेशन विकल्प किसी पोस्ट या पेज के अनुवादों के बीच मेटा सामग्री के बिल्कुल समान मान (या टैक्सोनॉमी और पेज पेरेंट के मामले में अनुवाद) बनाए रखने की अनुमति देते हैं।"
+
+#: modules/sync/settings-sync.php:31
+msgid "Synchronization"
+msgstr "सिंक्रोनाइज़ेशन"
+
+#: settings/settings-cpt.php:156
+msgid "Activate languages and translations for custom taxonomies."
+msgstr "कस्टम वर्गीकरण के लिए भाषाएँ और अनुवाद सक्रिय करें।"
+
+#: settings/settings-cpt.php:131
+msgid "Custom taxonomies"
+msgstr "कस्टम वर्गीकरण"
+
+#: settings/settings-cpt.php:125
+msgid "Activate languages and translations for custom post types."
+msgstr "कस्टम पोस्ट प्रकारों के लिए भाषाएँ और अनुवाद सक्रिय करें।"
+
+#: settings/settings-cpt.php:100
+msgid "Custom post types"
+msgstr "कस्टम पोस्ट प्रकार"
+
+#: modules/wizard/view-wizard-step-media.php:19 modules/wizard/wizard.php:620
+#: settings/settings-media.php:31
+msgid "Media"
+msgstr "मीडिया"
+
+#: settings/settings-browser.php:34
+msgid "Detect browser language"
+msgstr "ब्राउज़र भाषा का पता लगाएं"
+
+#. translators: %1$s example url when the option is active. %2$s example url
+#. when the option is not active
+#: settings/settings-url.php:211
+msgid "Example: %1$s instead of %2$s"
+msgstr "उदाहरण: %2$s के बजाय %1$s"
+
+#: modules/site-health/admin-site-health.php:167 settings/settings-url.php:199
+msgid "The front page URL contains the language code instead of the page name or page id"
+msgstr "मुख्य पृष्ठ यूआरएल में पृष्ठ नाम या पृष्ठ आईडी के बजाय भाषा कोड होता है"
+
+#: modules/site-health/admin-site-health.php:144 settings/settings-url.php:136
+msgid "Hide URL language information for default language"
+msgstr "डिफ़ॉल्ट भाषा के लिए यूआरएल भाषा की जानकारी छिपाएँ"
+
+#: modules/site-health/admin-site-health.php:161 settings/settings-url.php:101
+msgid "The language is set from different domains"
+msgstr "भाषा विभिन्न डोमेन से सेट की गई है"
+
+#: modules/site-health/admin-site-health.php:158 settings/settings-url.php:90
+msgid "The language is set from the subdomain name in pretty permalinks"
+msgstr "भाषा को उपडोमेन नाम से सुंदर पर्मालिंक में सेट किया गया है"
+
+#: settings/settings-url.php:83 settings/settings-url.php:94
+#: settings/settings-url.php:166 settings/settings-url.php:181
+msgid "Example:"
+msgstr "उदाहरण:"
+
+#: settings/settings-url.php:79
+msgid "The language is set from the code in the URL"
+msgstr "भाषा यूआरएल में कोड से सेट की गई है"
+
+#: modules/site-health/admin-site-health.php:155 settings/settings-url.php:79
+msgid "The language is set from the directory name in pretty permalinks"
+msgstr "भाषा को निर्देशिका नाम से सुंदर पर्मालिंक्स में सेट किया गया है"
+
+#: settings/settings-url.php:66
+msgid "Posts, pages, categories and tags URLs will not be modified."
+msgstr "पोस्ट, पृष्ठ, श्रेणियां और टैग यूआरएल संशोधित नहीं किए जाएंगे।"
+
+#: modules/site-health/admin-site-health.php:152 settings/settings-url.php:62
+msgid "The language is set from content"
+msgstr "भाषा सामग्री से निर्धारित होती है"
+
+#: settings/settings-url.php:38
+msgid "URL modifications"
+msgstr "यूआरएल संशोधन"
+
+#. translators: accessibility text
+#: modules/wizard/view-wizard-step-home-page.php:69
+#: modules/wizard/view-wizard-step-home-page.php:83
+#: modules/wizard/view-wizard-step-home-page.php:114
+#: modules/wizard/view-wizard-step-languages.php:71
+#: modules/wizard/view-wizard-step-languages.php:86
+#: settings/table-languages.php:133 settings/table-languages.php:152
+msgid "Default language"
+msgstr "डिफ़ॉल्ट भाषा"
+
+#: settings/view-tab-lang.php:172
+msgid "Update"
+msgstr "अपडेट करें"
+
+#: settings/view-tab-lang.php:151
+msgid "Position of the language in the language switcher"
+msgstr "भाषा स्विचर में भाषा की स्थिति"
+
+#: settings/view-tab-lang.php:120
+msgid "Choose the text direction for the language"
+msgstr "भाषा के लिए टेक्स्ट दिशा चुनें"
+
+#: settings/view-tab-lang.php:117
+msgid "right to left"
+msgstr "दाएं से बाएं"
+
+#: settings/view-tab-lang.php:112
+msgid "left to right"
+msgstr "बाएं से दायां"
+
+#: settings/view-tab-lang.php:107
+msgid "Text direction"
+msgstr "शब्द दिशा"
+
+#: settings/view-tab-lang.php:103
+msgid "Language code - preferably 2-letters ISO 639-1  (for example: en)"
+msgstr "भाषा कोड - अधिमानतः 2-अक्षर आईएसओ 639-1 (उदाहरण के लिए: एन)"
+
+#: settings/view-tab-lang.php:96
+msgid "Language code"
+msgstr "भाषा कोड"
+
+#: settings/view-tab-lang.php:92
+msgid "WordPress Locale for the language (for example: en_US). You will need to install the .mo file for this language."
+msgstr "भाषा के लिए वर्डप्रेस लोकेल (उदाहरण के लिए: en_US)। आपको इस भाषा के लिए .mo फ़ाइल इंस्टॉल करनी होगी."
+
+#: modules/REST/V1/Languages.php:456 settings/view-tab-lang.php:81
+msgid "The name is how it is displayed on your site (for example: English)."
+msgstr "नाम यह है कि यह आपकी साइट पर कैसे प्रदर्शित होता है (उदाहरण के लिए: अंग्रेजी)।"
+
+#: settings/view-tab-lang.php:70
+msgid "You can choose a language in the list or directly edit it below."
+msgstr "आप सूची में एक भाषा चुन सकते हैं या इसे सीधे नीचे संपादित कर सकते हैं।"
+
+#: include/widget-languages.php:88 settings/view-tab-lang.php:53
+msgid "Choose a language"
+msgstr "एक भाषा चुनें"
+
+#: modules/wizard/view-wizard-step-languages.php:50
+#: modules/wizard/view-wizard-step-languages.php:54
+#: settings/view-tab-lang.php:32 settings/view-tab-lang.php:172
+msgid "Add new language"
+msgstr "नई भाषा जोड़ें"
+
+#: settings/view-tab-lang.php:32
+msgid "Edit language"
+msgstr "भाषा संपादित करें"
+
+#. translators: %1$s is link start tag, %2$s is link end tag.
+#: settings/view-about.php:15
+msgid "Polylang is provided with an extensive %1$sdocumentation%2$s (in English). It includes information on how to set up your multilingual site and use it on a daily basis; FAQs, and documentation for developers to adapt their plugins and themes."
+msgstr "पॉलीलैंग को एक व्यापक %1$sदस्तावेज़ीकरण%2$s (अंग्रेजी में) प्रदान किया गया है। इसमें आपकी बहुभाषी साइट कैसे स्थापित करें और इसे दैनिक आधार पर कैसे उपयोग करें, इसके बारे में जानकारी शामिल है; डेवलपर्स के लिए उनके प्लगइन्स और थीम को अनुकूलित करने के लिए अक्सर पूछे जाने वाले प्रश्न और दस्तावेज़ीकरण।"
+
+#: settings/table-string.php:365
+msgid "Filter"
+msgstr "छानें"
+
+#: settings/table-string.php:352
+msgid "View all groups"
+msgstr "सभी समूह देखें"
+
+#: admin/admin-base.php:128 admin/view-translations-media.php:15
+#: admin/view-translations-post.php:14 admin/view-translations-term.php:17
+#: admin/view-translations-term.php:24 settings/table-string.php:164
+msgid "Translations"
+msgstr "अनुवाद"
+
+#: settings/table-string.php:163
+msgid "Group"
+msgstr "समूह"
+
+#: settings/table-string.php:162
+msgid "Name"
+msgstr "नाम"
+
+#: settings/table-string.php:161
+msgid "String"
+msgstr "स्ट्रिंग"
+
+#: settings/table-languages.php:155
+msgid "Posts"
+msgstr "पोस्ट"
+
+#: settings/table-languages.php:154 settings/view-tab-lang.php:124
+msgid "Flag"
+msgstr "फ्लैग"
+
+#: settings/table-languages.php:153 settings/view-tab-lang.php:144
+msgid "Order"
+msgstr "क्रम"
+
+#: settings/table-languages.php:151
+msgid "Code"
+msgstr "कोड"
+
+#: settings/table-languages.php:150 settings/view-tab-lang.php:85
+msgid "Locale"
+msgstr "लोकेल"
+
+#: settings/table-languages.php:149 settings/view-tab-lang.php:74
+msgid "Full name"
+msgstr "पूरा नाम"
+
+#: settings/table-languages.php:214 settings/table-string.php:314
+msgid "Delete"
+msgstr "मिटाएं"
+
+#: settings/table-languages.php:213
+msgid "You are about to permanently delete this language. Are you sure?"
+msgstr "आप इस भाषा को स्थायी रूप से हटाने वाले हैं. क्या आपको यकीन है?"
+
+#: modules/sync/settings-sync.php:113
+msgid "Featured image"
+msgstr "विशेष रुप से प्रदर्शित छवि"
+
+#: modules/sync/settings-sync.php:112
+msgid "Page order"
+msgstr "पृष्ठ क्रम"
+
+#: modules/sync/settings-sync.php:111
+msgid "Page template"
+msgstr "पृष्ठ टेम्पलेट"
+
+#: modules/sync/settings-sync.php:110
+msgid "Page parent"
+msgstr "पृष्ठ पैरेंट"
+
+#: modules/sync/settings-sync.php:109
+msgid "Post format"
+msgstr "पोस्ट प्रारूप"
+
+#: modules/sync/settings-sync.php:108
+msgid "Published date"
+msgstr "प्रकाशित तिथि"
+
+#: modules/sync/settings-sync.php:107
+msgid "Sticky posts"
+msgstr "स्टिकी पोस्ट"
+
+#: modules/sync/settings-sync.php:106
+msgid "Ping status"
+msgstr "पिंग स्थिति"
+
+#: modules/sync/settings-sync.php:105
+msgid "Comment status"
+msgstr "टिप्पणी स्थिति"
+
+#: modules/sync/settings-sync.php:104
+msgid "Custom fields"
+msgstr "कस्टम फील्ड्स"
+
+#: modules/sync/settings-sync.php:103
+msgid "Taxonomies"
+msgstr "टेक्सोनॉमिस"
+
+#: settings/settings-licenses.php:113 settings/settings-module.php:288
+msgid "Settings saved."
+msgstr "सेटिंग्स को सहेजा गया."
+
+#: settings/table-string.php:426
+msgid "Translations updated."
+msgstr "अनुवाद अद्यतन किया गया।"
+
+#: settings/settings.php:149
+msgid "Strings translations"
+msgstr "स्ट्रिंग्स अनुवाद"
+
+#: settings/settings.php:119
+msgid "About Polylang"
+msgstr "पॉलीलैंग के बारे में"
+
+#: settings/settings.php:194
+msgid "The language was created, but the WordPress language file was not downloaded. Please install it manually."
+msgstr "भाषा बनाई गई थी, लेकिन वर्डप्रेस भाषा फ़ाइल डाउनलोड नहीं की गई थी। कृपया इसे मैन्युअल रूप से इंस्टॉल करें।"
+
+#: admin/admin-base.php:457 admin/admin-base.php:475
+msgid "Filters content by language"
+msgstr "भाषा के अनुसार सामग्री फ़िल्टर करता है"
+
+#: admin/admin-base.php:448
+msgid "Show all languages"
+msgstr "सभी भाषाएँ दिखाएँ"
+
+#: admin/admin-base.php:131 admin/admin.php:104
+#: settings/settings-module.php:150
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: admin/admin-strings.php:70
+msgid "Widget text"
+msgstr "विजेट टेक्स्ट"
+
+#: admin/admin-strings.php:69
+msgid "Widget title"
+msgstr "विजेट शीर्षक"
+
+#: admin/admin-nav-menu.php:49 include/nav-menu.php:74
+#: include/widget-languages.php:32
+msgid "Language switcher"
+msgstr "भाषा स्विचर"
+
+#: include/Model/Languages.php:865 modules/wizard/wizard.php:498
+msgid "The language must have a name"
+msgstr "भाषा का एक नाम होना चाहिए"
+
+#: include/Model/Languages.php:858 modules/wizard/wizard.php:497
+msgid "The language code must be unique"
+msgstr "भाषा कोड अद्वितीय होना चाहिए"
+
+#: include/Model/Languages.php:852 modules/wizard/wizard.php:496
+msgid "The language code contains invalid characters"
+msgstr "भाषा कोड में अमान्य वर्ण हैं"
+
+#: include/Model/Languages.php:847 modules/wizard/wizard.php:495
+msgid "Enter a valid WordPress locale"
+msgstr "एक वैध वर्डप्रेस लोकेल दर्ज करें"
+
+#: settings/settings.php:222
+msgid "Language updated."
+msgstr "भाषा अद्यतन की गई।"
+
+#: settings/settings.php:209
+msgid "Language deleted."
+msgstr "भाषा हटा दी गई।"
+
+#: settings/settings.php:187
+msgid "Language added."
+msgstr "भाषा जोड़ी गई।"
+
+#: include/Model/Languages.php:188 modules/wizard/wizard.php:494
+msgid "Impossible to add the language."
+msgstr "भाषा जोड़ना असंभव है।"
+
+#: include/filters-widgets-options.php:53
+msgid "All languages"
+msgstr "सारी भाषाएँ"
+
+#: include/filters-widgets-options.php:68
+msgid "The widget is displayed for:"
+msgstr "विजेट इसके लिए प्रदर्शित किया गया है:"
+
+#: admin/admin-filters-term.php:467
+msgid "None"
+msgstr "कोई नही"
+
+#: admin/admin-filters-term.php:142 admin/admin-filters-term.php:215
+msgid "Sets the language"
+msgstr "भाषा सेट करता है"
+
+#: settings/table-languages.php:207
+msgid "Edit"
+msgstr "सम्पादन"
+
+#: admin/admin-classic-editor.php:245
+msgid "(no parent)"
+msgstr "(कोई पैरेन्ट नहीं)"
+
+#: admin/admin-base.php:124 admin/admin-base.php:148
+#: admin/admin-classic-editor.php:77 admin/admin-nav-menu.php:72
+#: admin/admin-nav-menu.php:75 admin/admin-nav-menu.php:108
+#: admin/admin-notices.php:114 admin/admin-notices.php:187
+#: include/nav-menu.php:73 modules/wizard/view-wizard-step-languages.php:28
+#: modules/wizard/wizard.php:510 settings/settings.php:129
+msgid "Languages"
+msgstr "Languages"
+
+#: admin/admin-classic-editor.php:129 admin/admin-filters-columns.php:232
+#: admin/admin-filters-media.php:60 admin/admin-filters-term.php:140
+#: admin/admin-filters-term.php:213
+#: modules/wizard/view-wizard-step-languages.php:62
+msgid "Language"
+msgstr "भाषा"
+
+#: admin/admin-filters-columns.php:218
+msgid "&mdash; No Change &mdash;"
+msgstr "&mdash; कोई परिवर्तन नहीं &mdash;"
