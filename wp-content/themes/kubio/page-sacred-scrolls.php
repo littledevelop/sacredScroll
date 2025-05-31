@@ -179,6 +179,7 @@ get_header();
 <div class="sap-container">
   <div class="row">
     <div class="col-md-12 mb-4">
+      
       <h3>Books</h3>
       <form method="GET" action="<?php echo esc_url(get_permalink()); ?>" style="margin-bottom: 20px;">
         <label for="book_category_filter"><?php _e('Filter by Category:', 'your-textdomain'); ?></label>
@@ -192,10 +193,7 @@ get_header();
           }
           ?>
         </select>
-
-
         <label for="book_filter"><?php _e('Filter by Book:', 'your-textdomain'); ?></label>
-
         <select name="book_filter" id="book_filter" onchange="this.form.submit()">
           <option value=""><?php _e('All Books', 'your-textdomain'); ?></option>
           <?php
@@ -211,8 +209,21 @@ get_header();
           }
           ?>
         </select>
+        <label for="lang">Filter by Language:</label>
+        <select name="lang" id="lang" onchange="this.form.submit()">
+          <option value="">All Languages</option>
+          <option value="English" <?php selected($_GET['lang'] ?? '', 'English'); ?>>English</option>
+          <option value="Hindi" <?php selected($_GET['lang'] ?? '', 'Hindi'); ?>>Hindi</option>
+          <option value="Sanskrit" <?php selected($_GET['lang'] ?? '', 'Sanskrit'); ?>>Sanskrit</option>
+        </select>
+        <!-- Reset Filter -->
+        <?php if (!empty($_GET['lang'])): ?>
+          <a href="<?php echo site_url('/sacred-scrolls'); ?>" style="margin-left: 15px;">Reset Filter</a>
+        <?php endif; ?>
+
       </form>
     </div>
+
   </div>
 
   <div class="row justify-content-center" id="book-list">
@@ -228,17 +239,17 @@ get_header();
       'paged' => $paged,
     ];
     if (!empty($_GET['book_category_filter'])) {
-    $args['tax_query'] = [
+      $args['tax_query'] = [
         [
-        'taxonomy' => 'book_category',
-        'field' => 'slug',
-        'terms' => sanitize_text_field($_GET['book_category_filter']),
+          'taxonomy' => 'book_category',
+          'field' => 'slug',
+          'terms' => sanitize_text_field($_GET['book_category_filter']),
         ],
       ];
-  }
-  if ($book_filter) {
-    $args['post__in'] = [$book_filter];
-  }
+    }
+    if ($book_filter) {
+      $args['post__in'] = [$book_filter];
+    }
 
     $book_query = new WP_Query($args);
 
@@ -254,19 +265,6 @@ get_header();
 
               $book_image = get_the_post_thumbnail_url($book->ID, 'medium');
               $book_title = get_the_title($book->ID);
-              // $chapter_args = [
-              //   'post_type' => 'chapter',
-              //   'posts_per_page' => 3,
-              //   'orderby' => 'menu_order',
-              //   'order' => 'ASC',
-              //   'meta_query' => [
-              //     [
-              //       'key'     => 'related_book',
-              //       'value'   => (int) $book->ID,  // Ensure it's an integer
-              //       'compare' => '='
-              //     ]
-              //   ]
-              // ];
               $chapter_args = [
                 'post_type' => 'chapter',
                 'posts_per_page' => -1, // show all chapters
@@ -295,10 +293,12 @@ get_header();
                 <div class="col-md-12">
                   <div class="card">
                     <div class="card-header">
-                      <img src="<?php echo esc_url($book_image); ?>" alt="<?php echo esc_attr($book_title); ?>" style="width: 100PX; height: auto;">
+                      <img src="<?php echo esc_url($book_image); ?>" alt="<?php echo esc_attr($book_title); ?>" style="width: 700PX; height: auto;">
                       <h2 class="card-title">
 
-                        <h2><a href="<?php echo get_permalink($book->ID); ?>"><?php echo esc_html($book_title); ?></a></h2>
+                        <h2><?php echo esc_html($book_title); ?></h2>
+                        <p><strong>Language:</strong> <?php echo get_post_meta(get_the_ID(), 'language', true); ?></p>
+
                     </div>
                     <div class="card-body">
                       <p class="card-text"><?php echo esc_html(get_the_excerpt($book->ID)); ?></p>
