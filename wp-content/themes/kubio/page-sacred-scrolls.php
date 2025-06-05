@@ -182,17 +182,6 @@ get_header();
       
       <h3>Books</h3>
       <form method="GET" action="<?php echo esc_url(get_permalink()); ?>" style="margin-bottom: 20px;">
-        <label for="book_category_filter"><?php _e('Filter by Category:', 'your-textdomain'); ?></label>
-        <select name="book_category_filter" id="book_category_filter" onchange="this.form.submit()">
-          <option value=""><?php _e('All Categories', 'your-textdomain'); ?></option>
-          <?php
-          $terms = get_terms(['taxonomy' => 'book_category', 'hide_empty' => false]);
-          foreach ($terms as $term) {
-            $selected = (isset($_GET['book_category_filter']) && $_GET['book_category_filter'] == $term->slug) ? 'selected' : '';
-            echo '<option value="' . esc_attr($term->slug) . '" ' . $selected . '>' . esc_html($term->name) . '</option>';
-          }
-          ?>
-        </select>
         <label for="book_filter"><?php _e('Filter by Book:', 'your-textdomain'); ?></label>
         <select name="book_filter" id="book_filter" onchange="this.form.submit()">
           <option value=""><?php _e('All Books', 'your-textdomain'); ?></option>
@@ -297,8 +286,6 @@ get_header();
                       <h2 class="card-title">
 
                         <h2><?php echo esc_html($book_title); ?></h2>
-                        <p><strong>Language:</strong> <?php echo get_post_meta(get_the_ID(), 'language', true); ?></p>
-
                     </div>
                     <div class="card-body">
                       <p class="card-text"><?php echo esc_html(get_the_excerpt($book->ID)); ?></p>
